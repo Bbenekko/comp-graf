@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c" "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o" "gcc" "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o.d"
-  "/home/neco/Documents/comp-graf-geral/comp-graf/src/teste.cpp" "CMakeFiles/comp_graf_project.dir/src/teste.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/teste.cpp.o.d"
+  "/home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp" "CMakeFiles/comp_graf_project.dir/src/error.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/error.cpp.o.d"
+  "/home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp" "CMakeFiles/comp_graf_project.dir/src/main.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/main.cpp.o.d"
+  "/home/neco/Documents/comp-graf-geral/comp-graf/src/shader.cpp" "CMakeFiles/comp_graf_project.dir/src/shader.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/shader.cpp.o.d"
+  "/home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.cpp" "CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o.d"
   "" "comp_graf_project" "gcc" "CMakeFiles/comp_graf_project.dir/link.d"
   )
 

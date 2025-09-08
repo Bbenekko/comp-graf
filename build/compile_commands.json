@@ -1,9 +1,27 @@
 [
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/teste.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/teste.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/teste.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/teste.cpp.o"
+  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/main.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp",
+  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp",
+  "output": "CMakeFiles/comp_graf_project.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/shader.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/shader.cpp",
+  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/shader.cpp",
+  "output": "CMakeFiles/comp_graf_project.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "output": "CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
+  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
+  "output": "CMakeFiles/comp_graf_project.dir/src/error.cpp.o"
 },
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",

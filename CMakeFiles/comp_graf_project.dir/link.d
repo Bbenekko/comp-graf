@@ -2,7 +2,10 @@ comp_graf_project: \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crt1.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
-  CMakeFiles/comp_graf_project.dir/src/teste.cpp.o \
+  CMakeFiles/comp_graf_project.dir/src/main.cpp.o \
+  CMakeFiles/comp_graf_project.dir/src/shader.cpp.o \
+  CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o \
+  CMakeFiles/comp_graf_project.dir/src/error.cpp.o \
   CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libglfw.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
@@ -39,7 +42,13 @@ comp_graf_project: \
 
 /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o:
 
-CMakeFiles/comp_graf_project.dir/src/teste.cpp.o:
+CMakeFiles/comp_graf_project.dir/src/main.cpp.o:
+
+CMakeFiles/comp_graf_project.dir/src/shader.cpp.o:
+
+CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o:
+
+CMakeFiles/comp_graf_project.dir/src/error.cpp.o:
 
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o:
 

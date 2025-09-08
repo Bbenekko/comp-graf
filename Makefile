@@ -153,29 +153,101 @@ external/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
-src/teste.o: src/teste.cpp.o
-.PHONY : src/teste.o
+src/error.o: src/error.cpp.o
+.PHONY : src/error.o
 
 # target to build an object file
-src/teste.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/teste.cpp.o
-.PHONY : src/teste.cpp.o
+src/error.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/error.cpp.o
+.PHONY : src/error.cpp.o
 
-src/teste.i: src/teste.cpp.i
-.PHONY : src/teste.i
+src/error.i: src/error.cpp.i
+.PHONY : src/error.i
 
 # target to preprocess a source file
-src/teste.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/teste.cpp.i
-.PHONY : src/teste.cpp.i
+src/error.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/error.cpp.i
+.PHONY : src/error.cpp.i
 
-src/teste.s: src/teste.cpp.s
-.PHONY : src/teste.s
+src/error.s: src/error.cpp.s
+.PHONY : src/error.s
 
 # target to generate assembly for a file
-src/teste.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/teste.cpp.s
-.PHONY : src/teste.cpp.s
+src/error.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/error.cpp.s
+.PHONY : src/error.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/shader.o: src/shader.cpp.o
+.PHONY : src/shader.o
+
+# target to build an object file
+src/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/shader.cpp.o
+.PHONY : src/shader.cpp.o
+
+src/shader.i: src/shader.cpp.i
+.PHONY : src/shader.i
+
+# target to preprocess a source file
+src/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/shader.cpp.i
+.PHONY : src/shader.cpp.i
+
+src/shader.s: src/shader.cpp.s
+.PHONY : src/shader.s
+
+# target to generate assembly for a file
+src/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/shader.cpp.s
+.PHONY : src/shader.cpp.s
+
+src/triangle.o: src/triangle.cpp.o
+.PHONY : src/triangle.o
+
+# target to build an object file
+src/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o
+.PHONY : src/triangle.cpp.o
+
+src/triangle.i: src/triangle.cpp.i
+.PHONY : src/triangle.i
+
+# target to preprocess a source file
+src/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/triangle.cpp.i
+.PHONY : src/triangle.cpp.i
+
+src/triangle.s: src/triangle.cpp.s
+.PHONY : src/triangle.s
+
+# target to generate assembly for a file
+src/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/triangle.cpp.s
+.PHONY : src/triangle.cpp.s
 
 # Help Target
 help:
@@ -189,9 +261,18 @@ help:
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
-	@echo "... src/teste.o"
-	@echo "... src/teste.i"
-	@echo "... src/teste.s"
+	@echo "... src/error.o"
+	@echo "... src/error.i"
+	@echo "... src/error.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/shader.o"
+	@echo "... src/shader.i"
+	@echo "... src/shader.s"
+	@echo "... src/triangle.o"
+	@echo "... src/triangle.i"
+	@echo "... src/triangle.s"
 .PHONY : help
 
 
