@@ -1,0 +1,6 @@
+set(GLAD_ROOT_DIR      ${CMAKE_CURRENT_SOURCE_DIR}/glad      CACHE STRING "glad root directory")
+
+# All
+set(BUILD_SHARED_LIBS OFF CACHE BOOL "Building dependencies as static libraries" FORCE)
+set(BUILD_DOCS OFF CACHE BOOL "Disabling dependencies documentation generation" FORCE)
+set(BUILD_TESTS OFF CACHE BOOL "Disabling dependencies tests generation" FORCE)
