@@ -201,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/polygon.o: src/polygon.cpp.o
+.PHONY : src/polygon.o
+
+# target to build an object file
+src/polygon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o
+.PHONY : src/polygon.cpp.o
+
+src/polygon.i: src/polygon.cpp.i
+.PHONY : src/polygon.i
+
+# target to preprocess a source file
+src/polygon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polygon.cpp.i
+.PHONY : src/polygon.cpp.i
+
+src/polygon.s: src/polygon.cpp.s
+.PHONY : src/polygon.s
+
+# target to generate assembly for a file
+src/polygon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polygon.cpp.s
+.PHONY : src/polygon.cpp.s
+
 src/shader.o: src/shader.cpp.o
 .PHONY : src/shader.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/polygon.o"
+	@echo "... src/polygon.i"
+	@echo "... src/polygon.s"
 	@echo "... src/shader.o"
 	@echo "... src/shader.i"
 	@echo "... src/shader.s"

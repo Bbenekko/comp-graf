@@ -15,7 +15,7 @@ Triangle::Triangle ()
   float coord[] = {
     -0.5f,-0.5f, 
      0.5f,-0.5f,
-     0.0f, 0.5f,
+     0.5f, 0.5f,
   };
   unsigned char color[] = {
     255, 0, 0,

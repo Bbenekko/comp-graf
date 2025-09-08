@@ -5,12 +5,14 @@
 #include "error.h"
 #include "triangle.h"
 #include "shader.h"
+#include "polygon.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 
 static TrianglePtr tri;
 static ShaderPtr shd;
+static PolygonPtr poly;
 
 static void error (int code, const char* msg)
 {
@@ -35,6 +37,7 @@ static void initialize ()
   glClearColor(1.0f,1.0f,1.0f,1.0f);
   tri = Triangle::Make();
   shd = Shader::Make();
+  poly = Polygon::Make();
   shd->AttachVertexShader("shaders/vertex.glsl");
   shd->AttachFragmentShader("shaders/fragment.glsl");
   shd->Link();
@@ -45,7 +48,8 @@ static void display (GLFWwindow* win)
 {
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   shd->UseProgram();
-  tri->Draw();
+  //tri->Draw();
+  poly->Draw();
   Error::Check("display");
 }
 

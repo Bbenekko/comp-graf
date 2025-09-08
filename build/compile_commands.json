@@ -19,6 +19,12 @@
 },
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "output": "CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
   "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
   "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
   "output": "CMakeFiles/comp_graf_project.dir/src/error.cpp.o"

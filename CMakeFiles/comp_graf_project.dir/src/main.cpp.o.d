@@ -282,4 +282,6 @@ CMakeFiles/comp_graf_project.dir/src/main.cpp.o: \
  /usr/include/glm/detail/func_integer.inl /usr/include/c++/15/vector \
  /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/stdlib.h
+ /usr/include/c++/15/bits/vector.tcc \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.h \
+ /usr/include/c++/15/stdlib.h

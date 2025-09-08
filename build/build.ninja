@@ -70,6 +70,13 @@ build CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o: CXX_COMPILER__comp_gr
   OBJECT_DIR = CMakeFiles/comp_graf_project.dir
   OBJECT_FILE_DIR = CMakeFiles/comp_graf_project.dir/src
 
+build CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o: CXX_COMPILER__comp_graf_project_unscanned_Debug /home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp || cmake_object_order_depends_target_comp_graf_project
+  DEP_FILE = CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include
+  OBJECT_DIR = CMakeFiles/comp_graf_project.dir
+  OBJECT_FILE_DIR = CMakeFiles/comp_graf_project.dir/src
+
 build CMakeFiles/comp_graf_project.dir/src/error.cpp.o: CXX_COMPILER__comp_graf_project_unscanned_Debug /home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp || cmake_object_order_depends_target_comp_graf_project
   DEP_FILE = CMakeFiles/comp_graf_project.dir/src/error.cpp.o.d
   FLAGS = -g
@@ -92,7 +99,7 @@ build CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: C_COMPILER__c
 #############################################
 # Link the executable comp_graf_project
 
-build comp_graf_project: CXX_EXECUTABLE_LINKER__comp_graf_project_Debug CMakeFiles/comp_graf_project.dir/src/main.cpp.o CMakeFiles/comp_graf_project.dir/src/shader.cpp.o CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o CMakeFiles/comp_graf_project.dir/src/error.cpp.o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o
+build comp_graf_project: CXX_EXECUTABLE_LINKER__comp_graf_project_Debug CMakeFiles/comp_graf_project.dir/src/main.cpp.o CMakeFiles/comp_graf_project.dir/src/shader.cpp.o CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o CMakeFiles/comp_graf_project.dir/src/error.cpp.o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o
   DEP_FILE = CMakeFiles/comp_graf_project.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/comp_graf_project.dir/link.d
