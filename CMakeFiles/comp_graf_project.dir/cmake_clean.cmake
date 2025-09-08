@@ -1,0 +1,14 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/comp_graf_project.dir/link.d"
+  "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
+  "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o.d"
+  "CMakeFiles/comp_graf_project.dir/src/teste.cpp.o"
+  "CMakeFiles/comp_graf_project.dir/src/teste.cpp.o.d"
+  "comp_graf_project"
+  "comp_graf_project.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/comp_graf_project.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

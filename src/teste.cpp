@@ -1,7 +1,6 @@
 // Simple example to use glfw
 
-#define GLAD_GL_IMPLEMENTATION // Necessary for headeronly version.
-#include "glad.h"
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
 #include <iostream>
