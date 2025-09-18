@@ -13,9 +13,9 @@ TrianglePtr Triangle::Make ()
 Triangle::Triangle ()
 {
   float coord[] = {
-    -0.5f,-0.5f, 
-     0.5f,-0.5f,
-     0.5f, 0.5f,
+    -0.01f, 0.0f,
+    0.01f, 0.0f,
+    0.0f, 1.0f
   };
   unsigned char color[] = {
     255, 0, 0,

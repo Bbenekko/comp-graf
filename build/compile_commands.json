@@ -1,37 +1,43 @@
 [
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/main.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp",
+  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/main.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp",
   "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp",
   "output": "CMakeFiles/comp_graf_project.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/shader.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/shader.cpp",
+  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/shader.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/shader.cpp",
   "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/shader.cpp",
   "output": "CMakeFiles/comp_graf_project.dir/src/shader.cpp.o"
 },
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.cpp",
   "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.cpp",
   "output": "CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o"
 },
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp",
   "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp",
   "output": "CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o"
 },
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++ -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
+  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/circle.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/circle.cpp",
+  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/circle.cpp",
+  "output": "CMakeFiles/comp_graf_project.dir/src/circle.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
   "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
   "output": "CMakeFiles/comp_graf_project.dir/src/error.cpp.o"
 },
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/gcc -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -c /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c",
+  "command": "/usr/lib64/ccache/gcc  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -g -o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -c /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c",
   "file": "/home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c",
   "output": "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
 }

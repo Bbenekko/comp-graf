@@ -13,6 +13,7 @@ add_executable(comp_graf_project
     src/shader.cpp
     src/triangle.cpp
     src/polygon.cpp
+    src/circle.cpp
     src/error.cpp
     external/glad/src/glad.c
 )

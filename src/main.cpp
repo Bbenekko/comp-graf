@@ -1,18 +1,29 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+#define GLM_ENABLE_EXPERIMENTAL
 
 #include "error.h"
 #include "triangle.h"
 #include "shader.h"
 #include "polygon.h"
+#include "circle.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 
+#include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <glm/ext/matrix_transform.hpp>
+#include <glm/gtx/string_cast.hpp>
+
+#include <time.h>
+
+static CirclePtr circ;
 static TrianglePtr tri;
 static ShaderPtr shd;
 static PolygonPtr poly;
+static GLint uModelLoc = -1;
 
 static void error (int code, const char* msg)
 {
@@ -38,6 +49,7 @@ static void initialize ()
   tri = Triangle::Make();
   shd = Shader::Make();
   poly = Polygon::Make();
+  circ = Circle::Make();
   shd->AttachVertexShader("shaders/vertex.glsl");
   shd->AttachFragmentShader("shaders/fragment.glsl");
   shd->Link();
@@ -47,10 +59,20 @@ static void initialize ()
 static void display (GLFWwindow* win)
 {
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-  shd->UseProgram();
-  //tri->Draw();
-  poly->Draw();
+  shd->UseProgram();  
+  // desenhar o relógio
+
+  glm::mat4 circRelogio(1.0f);
+  circRelogio = glm::scale(circRelogio, glm::vec3(0.55f, 0.9f, 1.0f));
+  shd->SetUniform("M", circRelogio);
+  circ->Draw();
+
   Error::Check("display");
+}
+
+void update(float dt)
+{
+
 }
 
 int main ()
@@ -64,32 +86,28 @@ int main ()
 
   glfwSetErrorCallback(error);
 
-  GLFWwindow* win = glfwCreateWindow(600,400,"Triangle test",nullptr,nullptr);
+  GLFWwindow* win = glfwCreateWindow(600,400,"Relogio teste",nullptr,nullptr);
   glfwSetFramebufferSizeCallback(win, resize);  // resize callback
   glfwSetKeyCallback(win, keyboard);            // keyboard callback
   
   glfwMakeContextCurrent(win);
- 
-#ifdef __glad_h_
-  if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+
+  if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) 
+  {
     printf("Failed to initialize GLAD OpenGL context\n");
     exit(1);
-   }
-#endif
-#ifdef __glew_h__
-  glewInit(); 
-  if (glewInit() != GLEW_OK) {
-    printf("Failed to initialize GLEW OpenGL context\n");
-    exit(1);
   }
-#endif
 
   printf("OpenGL version: %s\n", glGetString(GL_VERSION));
 
   initialize();
 
+  double t0 = glfwGetTime();
+  double t;
   while(!glfwWindowShouldClose(win)) {
-    //idle(win);
+    t = glfwGetTime();
+    update(t-t0);
+    t0 = t;
     display(win);
     glfwSwapBuffers(win);
     glfwPollEvents();

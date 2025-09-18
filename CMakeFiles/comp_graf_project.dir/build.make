@@ -128,10 +128,24 @@ CMakeFiles/comp_graf_project.dir/src/polygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/polygon.cpp.s"
 	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp -o CMakeFiles/comp_graf_project.dir/src/polygon.cpp.s
 
+CMakeFiles/comp_graf_project.dir/src/circle.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/circle.cpp.o: src/circle.cpp
+CMakeFiles/comp_graf_project.dir/src/circle.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/comp_graf_project.dir/src/circle.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/circle.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/circle.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/circle.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/circle.cpp
+
+CMakeFiles/comp_graf_project.dir/src/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/circle.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/circle.cpp > CMakeFiles/comp_graf_project.dir/src/circle.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/circle.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/circle.cpp -o CMakeFiles/comp_graf_project.dir/src/circle.cpp.s
+
 CMakeFiles/comp_graf_project.dir/src/error.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
 CMakeFiles/comp_graf_project.dir/src/error.cpp.o: src/error.cpp
 CMakeFiles/comp_graf_project.dir/src/error.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/comp_graf_project.dir/src/error.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/comp_graf_project.dir/src/error.cpp.o"
 	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/error.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/error.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp
 
 CMakeFiles/comp_graf_project.dir/src/error.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/comp_graf_project.dir/src/error.cpp.s: cmake_force
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: CMakeFiles/comp_graf_project.dir/flags.make
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: external/glad/src/glad.c
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
 	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -MF CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o.d -o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -c /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c
 
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.i: cmake_force
@@ -162,6 +176,7 @@ comp_graf_project_OBJECTS = \
 "CMakeFiles/comp_graf_project.dir/src/shader.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/circle.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/error.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
 
@@ -172,12 +187,13 @@ comp_graf_project: CMakeFiles/comp_graf_project.dir/src/main.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/shader.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/circle.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/error.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/build.make
 comp_graf_project: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
 comp_graf_project: CMakeFiles/comp_graf_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable comp_graf_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable comp_graf_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/comp_graf_project.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E copy_directory /home/neco/Documents/comp-graf-geral/comp-graf/src/shaders /home/neco/Documents/comp-graf-geral/comp-graf/shaders
 
