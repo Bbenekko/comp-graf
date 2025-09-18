@@ -1,0 +1,28 @@
+    // minutos e horas suaves (interpolando pelos segundos)
+    double m_exact = lt.tm_min + s_exact/60.0;
+    double h_exact = (lt.tm_hour % 12) + m_exact/60.0;
+
+    // ângulos (radianos)
+    float angS = float(2.0 * M_PI * (s_exact / 60.0));
+    float angM = float(2.0 * M_PI * (m_exact / 60.0));
+    float angH = float(2.0 * M_PI * (h_exact / 12.0));
+
+    // matrizes de cada ponteiro (sentido horário: ângulo negativo)
+    glm::mat4 Mhour = glm::rotate(base, -angH, glm::vec3(0,0,1));
+    glm::mat4 Mmin  = glm::rotate(base, -angM, glm::vec3(0,0,1));
+    glm::mat4 Msec  = glm::rotate(base, -angS, glm::vec3(0,0,1));
+
+    // comprimentos diferentes (ajuste conforme sua geometria)
+    Mhour = glm::scale(Mhour, glm::vec3(0.55f, 0.55f, 1.0f)); // mais curto e “gordo”
+    Mmin  = glm::scale(Mmin,  glm::vec3(0.75f, 0.75f, 1.0f));
+    Msec  = glm::scale(Msec,  glm::vec3(0.90f, 0.90f, 1.0f)); // mais comprido e fino
+
+    // desenhe na ordem: hora -> minuto -> segundo (segundo por cima)
+    shd->SetUniform("M", Mhour);
+    tri->Draw();
+
+    shd->SetUniform("M", Mmin);
+    tri->Draw();
+
+    shd->SetUniform("M", Msec);
+    tri->Draw();
