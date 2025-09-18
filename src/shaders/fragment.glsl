@@ -1,9 +1,9 @@
 #version 410
 
-uniform vec4 color;
+uniform vec4 icolor;
 out vec4 fcolor;
 
 void main (void)
 {
-  fcolor = color;
+  fcolor = icolor;
 }

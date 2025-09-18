@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/comp_graf_project.dir/src/circle.cpp.o.d"
   "CMakeFiles/comp_graf_project.dir/src/error.cpp.o"
   "CMakeFiles/comp_graf_project.dir/src/error.cpp.o.d"
+  "CMakeFiles/comp_graf_project.dir/src/line.cpp.o"
+  "CMakeFiles/comp_graf_project.dir/src/line.cpp.o.d"
   "CMakeFiles/comp_graf_project.dir/src/main.cpp.o"
   "CMakeFiles/comp_graf_project.dir/src/main.cpp.o.d"
   "CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o"

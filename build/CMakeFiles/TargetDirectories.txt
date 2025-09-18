@@ -1,3 +1,0 @@
-/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles/comp_graf_project.dir
-/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles/edit_cache.dir
-/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles/rebuild_cache.dir

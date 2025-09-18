@@ -14,6 +14,7 @@ add_executable(comp_graf_project
     src/triangle.cpp
     src/polygon.cpp
     src/circle.cpp
+    src/line.cpp
     src/error.cpp
     external/glad/src/glad.c
 )

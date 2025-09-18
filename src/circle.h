@@ -9,10 +9,11 @@ using CirclePtr = std::shared_ptr<Circle>;
 
 class Circle : public Shape {
   unsigned int m_vao;
+  int nSegments;
 protected:
-  Circle ();
+  Circle (float thickness, float radius, int segments);
 public:
-  static CirclePtr Make ();
+  static CirclePtr Make (float thickness, float radius = 1.0f, int segments = 100);
   virtual ~Circle ();
   virtual void Draw ();
 };

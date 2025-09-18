@@ -201,6 +201,30 @@ src/error.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/error.cpp.s
 .PHONY : src/error.cpp.s
 
+src/line.o: src/line.cpp.o
+.PHONY : src/line.o
+
+# target to build an object file
+src/line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/line.cpp.o
+.PHONY : src/line.cpp.o
+
+src/line.i: src/line.cpp.i
+.PHONY : src/line.i
+
+# target to preprocess a source file
+src/line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/line.cpp.i
+.PHONY : src/line.cpp.i
+
+src/line.s: src/line.cpp.s
+.PHONY : src/line.s
+
+# target to generate assembly for a file
+src/line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/line.cpp.s
+.PHONY : src/line.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -315,6 +339,9 @@ help:
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"
+	@echo "... src/line.o"
+	@echo "... src/line.i"
+	@echo "... src/line.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

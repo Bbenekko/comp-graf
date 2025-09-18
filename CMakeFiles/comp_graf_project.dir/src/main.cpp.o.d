@@ -285,8 +285,12 @@ CMakeFiles/comp_graf_project.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/vector.tcc \
  /home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.h \
  /home/neco/Documents/comp-graf-geral/comp-graf/src/circle.h \
- /usr/include/c++/15/stdlib.h /usr/include/glm/gtc/type_ptr.hpp \
- /usr/include/glm/gtc/quaternion.hpp /usr/include/glm/gtc/constants.hpp \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/line.h \
+ /usr/include/c++/15/chrono /usr/include/c++/15/bits/chrono.h \
+ /usr/include/c++/15/ratio /usr/include/c++/15/ctime \
+ /usr/include/c++/15/bits/parse_numbers.h /usr/include/c++/15/stdlib.h \
+ /usr/include/glm/gtc/type_ptr.hpp /usr/include/glm/gtc/quaternion.hpp \
+ /usr/include/glm/gtc/constants.hpp \
  /usr/include/glm/ext/scalar_constants.hpp \
  /usr/include/glm/ext/scalar_constants.inl \
  /usr/include/glm/gtc/constants.inl \

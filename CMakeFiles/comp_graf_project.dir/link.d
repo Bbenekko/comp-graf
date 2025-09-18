@@ -7,6 +7,7 @@ comp_graf_project: \
   CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o \
   CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o \
   CMakeFiles/comp_graf_project.dir/src/circle.cpp.o \
+  CMakeFiles/comp_graf_project.dir/src/line.cpp.o \
   CMakeFiles/comp_graf_project.dir/src/error.cpp.o \
   CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libglfw.so \
@@ -53,6 +54,8 @@ CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o:
 CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o:
 
 CMakeFiles/comp_graf_project.dir/src/circle.cpp.o:
+
+CMakeFiles/comp_graf_project.dir/src/line.cpp.o:
 
 CMakeFiles/comp_graf_project.dir/src/error.cpp.o:
 
