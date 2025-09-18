@@ -113,23 +113,20 @@ void update(float dt)
 
   glm::mat4 M(1.0f);
 
-  // matrizes de cada ponteiro (sentido horário: ângulo negativo)
   glm::mat4 Mhr = glm::rotate(M, (float) M_PI_2 -angHr, glm::vec3(0,0,1));
   glm::mat4 Mmin  = glm::rotate(M, (float) M_PI_2 -angMin, glm::vec3(0,0,1));
   glm::mat4 Mseg  = glm::rotate(M, (float) M_PI_2 -angSeg, glm::vec3(0,0,1));
 
-  // comprimentos diferentes (ajuste conforme sua geometria)
-  Mhr = glm::scale(Mhr, glm::vec3(1.0f, 0.55f, 1.0f)); // mais curto e “gordo”
-  Mmin  = glm::scale(Mmin,  glm::vec3(1.1f, 0.75f, 1.0f));
-  Mseg  = glm::scale(Mseg,  glm::vec3(1.50f, 0.90f, 1.0f)); // mais comprido e fino
+  Mhr = glm::scale(Mhr, glm::vec3(0.9f, 4.0f, 1.0f)); 
+  Mmin  = glm::scale(Mmin,  glm::vec3(1.3f, 2.5f, 1.0f));
+  Mseg  = glm::scale(Mseg,  glm::vec3(1.50f, 0.90f, 1.0f));
 
-  // desenhe na ordem: hora -> minuto -> segundo (segundo por cima)
   shd->SetUniform("M", Mseg);
   shd->SetUniform("icolor", glm::vec4(1.0f, 0.0f, 0.0f, 1.0f));
   line->Draw();
 
   shd->SetUniform("M", Mmin);
-  shd->SetUniform("icolor", glm::vec4(0.5f, 0.5f, 0.5f, 1.0f));
+  shd->SetUniform("icolor", glm::vec4(0.7f, 0.7f, 0.7f, 1.0f));
   line->Draw();
 
   shd->SetUniform("M", Mhr);
