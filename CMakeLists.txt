@@ -39,6 +39,7 @@ add_executable(comp_graf_project
     src/texcube.cpp
     src/texdepth.cpp
     src/texture.cpp
+    src/disk.cpp
 
     external/glad/src/glad.c
 )

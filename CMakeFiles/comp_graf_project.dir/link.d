@@ -31,6 +31,7 @@ comp_graf_project: \
   CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o \
   CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o \
   CMakeFiles/comp_graf_project.dir/src/texture.cpp.o \
+  CMakeFiles/comp_graf_project.dir/src/disk.cpp.o \
   CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/libglfw.so \
   /usr/lib/gcc/x86_64-redhat-linux/15/libstdc++.so \
@@ -124,6 +125,8 @@ CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o:
 CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o:
 
 CMakeFiles/comp_graf_project.dir/src/texture.cpp.o:
+
+CMakeFiles/comp_graf_project.dir/src/disk.cpp.o:
 
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o:
 

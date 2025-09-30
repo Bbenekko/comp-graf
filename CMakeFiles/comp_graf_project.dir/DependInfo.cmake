@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/neco/Documents/comp-graf-geral/comp-graf/src/color.cpp" "CMakeFiles/comp_graf_project.dir/src/color.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/color.cpp.o.d"
   "/home/neco/Documents/comp-graf-geral/comp-graf/src/computeshader.cpp" "CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o.d"
   "/home/neco/Documents/comp-graf-geral/comp-graf/src/cube.cpp" "CMakeFiles/comp_graf_project.dir/src/cube.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/cube.cpp.o.d"
+  "/home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp" "CMakeFiles/comp_graf_project.dir/src/disk.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/disk.cpp.o.d"
   "/home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp" "CMakeFiles/comp_graf_project.dir/src/error.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/error.cpp.o.d"
   "/home/neco/Documents/comp-graf-geral/comp-graf/src/framebuffer.cpp" "CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o.d"
   "/home/neco/Documents/comp-graf-geral/comp-graf/src/grid.cpp" "CMakeFiles/comp_graf_project.dir/src/grid.cpp.o" "gcc" "CMakeFiles/comp_graf_project.dir/src/grid.cpp.o.d"

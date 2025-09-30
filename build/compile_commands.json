@@ -175,6 +175,12 @@
 },
 {
   "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/disk.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp",
+  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp",
+  "output": "CMakeFiles/comp_graf_project.dir/src/disk.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
   "command": "/usr/lib64/ccache/gcc  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -c /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c",
   "file": "/home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c",
   "output": "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"

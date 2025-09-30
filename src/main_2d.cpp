@@ -11,11 +11,13 @@
 #include "shader.h"
 #include "quad.h"
 #include "triangle.h"
+#include "disk.h"
 
 #include <iostream>
 
 static ScenePtr scene;
 static CameraPtr camera;
+static int abluble = 0;
 
 class MovePointer;
 using MovePointerPtr = std::shared_ptr<MovePointer>;
@@ -38,35 +40,63 @@ public:
   }
 };
 
+class MoveDisk;
+using MoveDiskPtr = std::shared_ptr<MoveDisk>;
+class MoveDisk : public Engine 
+{
+  TransformPtr m_trf;
+protected:
+  MoveDisk (TransformPtr trf) 
+  : m_trf(trf) 
+  {
+  }
+public:
+  static MoveDiskPtr Make (TransformPtr trf)
+  {
+    return MoveDiskPtr(new MoveDisk(trf));
+  }
+  virtual void Update (float dt)
+  {
+    m_trf->Rotate(-dt/15.0f*180.0f,0,0,1);
+  }
+};
+
 static void initialize (void)
 {
   // set background color: white 
-  glClearColor(0.8f,1.0f,1.0f,1.0f);
+  glClearColor(0.0f,0.0f,0.1f,1.0f);
   // enable depth test 
   glEnable(GL_DEPTH_TEST);
 
   // create objects
   camera = Camera2D::Make(0,10,0,10);
 
-  auto trf1 = Transform::Make();
-  trf1->Translate(3.0f,3.0f,-0.5f);
-  trf1->Scale(4.0f,4.0f,1.0f);
-  auto face = Node::Make(trf1,{Color::Make(1,1,1)},{Quad::Make()});
-  auto trf2 = Transform::Make();
-  trf2->Translate(5.0f,5.0f,0.0f);
   auto trf3 = Transform::Make();
-  trf3->Scale(0.1f,2.0f,1.0f);
-  auto pointer = Node::Make(trf2,{Node::Make(trf3,{Color::Make(1,0,0)},{Triangle::Make()})});
+  trf3->Scale(0.4f, 0.4f, 1.0f);
+  trf3->Translate(5.0f, 5.0f, 0.0f);
+  auto lua = Node::Make(trf3, {Color::Make(0.9, 0.9, 1)}, {Disk::Make()});
+
+  auto trf2 = Transform::Make();
+  trf2->Scale(0.3f,0.3f,1.0f);
+  trf2->Translate(8.0f ,8.0f, 0.0f);
+  auto terra = Node::Make(trf2, {Color::Make(0,0,1)},{Disk::Make()}, {lua});
+
+  auto trf1 = Transform::Make();
+  trf1->Scale(1.0f,1.0f,1.0f);
+  trf1->Translate(5.0f,5.0f,0.0f);
+  auto sol = Node::Make(trf1,{Color::Make(1,1,0)},{Disk::Make()}, {terra});
 
   auto shader = Shader::Make();
-  shader->AttachVertexShader("../shaders/2d/vertex.glsl");
-  shader->AttachFragmentShader("../shaders/2d/fragment.glsl");
+  shader->AttachVertexShader("/home/neco/Documents/comp-graf-geral/comp-graf/src/shaders/2d/vertex.glsl");
+  shader->AttachFragmentShader("/home/neco/Documents/comp-graf-geral/comp-graf/src/shaders/2d/fragment.glsl");
   shader->Link();
 
   // build scene
-  auto root = Node::Make(shader, {face,pointer});
+  
+  auto root = Node::Make(shader, {sol});
   scene = Scene::Make(root);
-  scene->AddEngine(MovePointer::Make(trf2));
+  scene->AddEngine(MoveDisk::Make(trf2));
+  scene->AddEngine(MoveDisk::Make(trf1));
 }
 
 static void display (GLFWwindow* win)
@@ -106,10 +136,10 @@ int main ()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-#ifdef __APPLE__
-    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);       // required for mac os
-    glfwWindowHint(GLFW_COCOA_RETINA_FRAMEBUFFER, GLFW_TRUE);  // option for mac os
-#endif
+
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+    glfwWindowHint(GLFW_SAMPLES, 4);
+
 
     glfwSetErrorCallback(error);
 
@@ -119,14 +149,14 @@ int main ()
     glfwSetKeyCallback(win, keyboard);            // keyboard callback
 
     glfwMakeContextCurrent(win);
-#ifdef _WIN32
-    if (!gladLoadGL(glfwGetProcAddress)) {
-        printf("Failed to initialize GLAD OpenGL context\n");
-        exit(1);
-    }
-#endif
-    printf("OpenGL version: %s\n", glGetString(GL_VERSION));
 
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) 
+    {
+    fprintf(stderr, "Failed to initialize GLAD\n");
+    return -1;
+    }
+
+    printf("OpenGL version: %s\n", glGetString(GL_VERSION));
   initialize();
 
   float t0 = float(glfwGetTime());

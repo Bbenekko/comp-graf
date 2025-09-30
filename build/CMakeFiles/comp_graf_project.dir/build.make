@@ -478,10 +478,24 @@ CMakeFiles/comp_graf_project.dir/src/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/texture.cpp.s"
 	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/texture.cpp -o CMakeFiles/comp_graf_project.dir/src/texture.cpp.s
 
+CMakeFiles/comp_graf_project.dir/src/disk.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/disk.cpp.o: /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp
+CMakeFiles/comp_graf_project.dir/src/disk.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/comp_graf_project.dir/src/disk.cpp.o"
+	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/disk.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/disk.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/disk.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp
+
+CMakeFiles/comp_graf_project.dir/src/disk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/disk.cpp.i"
+	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp > CMakeFiles/comp_graf_project.dir/src/disk.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/disk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/disk.cpp.s"
+	/usr/lib64/ccache/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp -o CMakeFiles/comp_graf_project.dir/src/disk.cpp.s
+
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: CMakeFiles/comp_graf_project.dir/flags.make
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
 	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -MF CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o.d -o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -c /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c
 
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.i: cmake_force
@@ -523,6 +537,7 @@ comp_graf_project_OBJECTS = \
 "CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/texture.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/disk.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
 
 # External object files for target comp_graf_project
@@ -557,11 +572,12 @@ comp_graf_project: CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/texture.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/disk.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/build.make
 comp_graf_project: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
 comp_graf_project: CMakeFiles/comp_graf_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable comp_graf_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable comp_graf_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/comp_graf_project.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E copy_directory /home/neco/Documents/comp-graf-geral/comp-graf/src/shaders /home/neco/Documents/comp-graf-geral/comp-graf/build/shaders
 

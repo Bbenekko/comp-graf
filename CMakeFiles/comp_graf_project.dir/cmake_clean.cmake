@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o.d"
   "CMakeFiles/comp_graf_project.dir/src/cube.cpp.o"
   "CMakeFiles/comp_graf_project.dir/src/cube.cpp.o.d"
+  "CMakeFiles/comp_graf_project.dir/src/disk.cpp.o"
+  "CMakeFiles/comp_graf_project.dir/src/disk.cpp.o.d"
   "CMakeFiles/comp_graf_project.dir/src/error.cpp.o"
   "CMakeFiles/comp_graf_project.dir/src/error.cpp.o.d"
   "CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o"

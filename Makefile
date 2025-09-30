@@ -297,6 +297,30 @@ src/cube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/cube.cpp.s
 .PHONY : src/cube.cpp.s
 
+src/disk.o: src/disk.cpp.o
+.PHONY : src/disk.o
+
+# target to build an object file
+src/disk.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/disk.cpp.o
+.PHONY : src/disk.cpp.o
+
+src/disk.i: src/disk.cpp.i
+.PHONY : src/disk.i
+
+# target to preprocess a source file
+src/disk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/disk.cpp.i
+.PHONY : src/disk.cpp.i
+
+src/disk.s: src/disk.cpp.s
+.PHONY : src/disk.s
+
+# target to generate assembly for a file
+src/disk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/disk.cpp.s
+.PHONY : src/disk.cpp.s
+
 src/error.o: src/error.cpp.o
 .PHONY : src/error.o
 
@@ -879,6 +903,9 @@ help:
 	@echo "... src/cube.o"
 	@echo "... src/cube.i"
 	@echo "... src/cube.s"
+	@echo "... src/disk.o"
+	@echo "... src/disk.i"
+	@echo "... src/disk.s"
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"

@@ -1,23 +1,15 @@
-CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/main_2d.cpp \
+CMakeFiles/comp_graf_project.dir/src/disk.cpp.o: \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp \
  /usr/include/stdc-predef.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include/glad/glad.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include/KHR/khrplatform.h \
- /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
- /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/GLFW/glfw3.h \
- /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/scene.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.h \
  /usr/include/c++/15/memory /usr/include/c++/15/bits/memoryfwd.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/include/c++/15/pstl/pstl_config.h \
  /usr/include/c++/15/bits/allocator.h \
@@ -58,9 +50,12 @@ CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
  /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/bits/stringfwd.h /usr/include/c++/15/bits/postypes.h \
  /usr/include/c++/15/cwchar /usr/include/wchar.h \
- /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/include/bits/libc-header-start.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
- /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h \
@@ -71,7 +66,8 @@ CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
  /usr/include/c++/15/ext/atomicity.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/types/time_t.h \
  /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
  /usr/include/bits/endianness.h /usr/include/bits/sched.h \
@@ -105,8 +101,7 @@ CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
  /usr/include/c++/15/backward/auto_ptr.h \
  /usr/include/c++/15/pstl/glue_memory_defs.h \
  /usr/include/c++/15/pstl/execution_defs.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/node.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/appearance.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/shape.h \
  /home/neco/Documents/comp-graf-geral/comp-graf/src/state.h \
  /home/neco/Documents/comp-graf-geral/comp-graf/src/camera.h \
  /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
@@ -119,12 +114,12 @@ CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
  /usr/include/bits/iscanonical.h /usr/include/c++/15/bits/std_abs.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
- /usr/include/endian.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
- /usr/include/c++/15/bits/specfun.h /usr/include/c++/15/limits \
- /usr/include/c++/15/tr1/gamma.tcc \
+ /usr/include/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/15/bits/specfun.h \
+ /usr/include/c++/15/limits /usr/include/c++/15/tr1/gamma.tcc \
  /usr/include/c++/15/tr1/special_function_util.h \
  /usr/include/c++/15/tr1/bessel_function.tcc \
  /usr/include/c++/15/tr1/beta_function.tcc \
@@ -139,7 +134,9 @@ CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
  /usr/include/glm/detail/setup.hpp /usr/include/c++/15/cassert \
  /usr/include/assert.h /usr/include/c++/15/cstddef \
  /usr/include/glm/simd/platform.h /usr/include/c++/15/cstdint \
- /usr/include/c++/15/climits \
+ /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/c++/15/climits \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -259,6 +256,9 @@ CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
  /usr/include/glm/detail/func_integer.inl \
  /home/neco/Documents/comp-graf-geral/comp-graf/src/light.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/node.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/appearance.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/shader.h \
  /usr/include/c++/15/string /usr/include/c++/15/bits/char_traits.h \
  /usr/include/c++/15/bits/localefwd.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++locale.h \
@@ -283,19 +283,10 @@ CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
  /usr/include/c++/15/bits/basic_string.tcc \
  /usr/include/c++/15/bits/memory_resource.h \
  /usr/include/c++/15/bits/uses_allocator_args.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/shader.h \
  /usr/include/c++/15/vector /usr/include/c++/15/bits/stl_vector.h \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/shape.h \
  /home/neco/Documents/comp-graf-geral/comp-graf/src/transform.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/engine.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/camera2d.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/color.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/error.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/quad.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.h \
- /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.h \
  /usr/include/c++/15/iostream /usr/include/c++/15/ostream \
  /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
  /usr/include/c++/15/bits/ios_base.h \
@@ -314,4 +305,7 @@ CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: \
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
- /usr/include/c++/15/bits/istream.tcc
+ /usr/include/c++/15/bits/istream.tcc \
+ /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include/glad/glad.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include/KHR/khrplatform.h \
+ /usr/include/GLFW/glfw3.h
