@@ -45,19 +45,20 @@ using MoveDiskPtr = std::shared_ptr<MoveDisk>;
 class MoveDisk : public Engine 
 {
   TransformPtr m_trf;
+  float m_value;
 protected:
-  MoveDisk (TransformPtr trf) 
-  : m_trf(trf) 
+  MoveDisk (TransformPtr trf, float value) 
+  : m_trf(trf), m_value(value)
   {
   }
 public:
-  static MoveDiskPtr Make (TransformPtr trf)
+  static MoveDiskPtr Make (TransformPtr trf, float value)
   {
-    return MoveDiskPtr(new MoveDisk(trf));
+    return MoveDiskPtr(new MoveDisk(trf, value));
   }
   virtual void Update (float dt)
   {
-    m_trf->Rotate(-dt/15.0f*180.0f,0,0,1);
+    m_trf->Rotate(-dt/m_value*180.0f,0,0,1);
   }
 };
 
@@ -95,8 +96,8 @@ static void initialize (void)
   
   auto root = Node::Make(shader, {sol});
   scene = Scene::Make(root);
-  scene->AddEngine(MoveDisk::Make(trf2));
-  scene->AddEngine(MoveDisk::Make(trf1));
+  scene->AddEngine(MoveDisk::Make(trf2, 10.0f));
+  scene->AddEngine(MoveDisk::Make(trf1, 15.0f));
 }
 
 static void display (GLFWwindow* win)
