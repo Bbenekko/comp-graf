@@ -15,6 +15,6 @@ protected:
 public:
   static CirclePtr Make (float thickness, float radius = 1.0f, int segments = 100);
   virtual ~Circle ();
-  virtual void Draw ();
+  virtual void Draw (StatePtr st);
 };
 #endif

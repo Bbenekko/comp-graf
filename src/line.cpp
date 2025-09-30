@@ -44,7 +44,7 @@ Line::~Line ()
 {
 }
 
-void Line::Draw ()
+void Line::Draw (StatePtr st)
 {
   glBindVertexArray(m_vao);
   glDrawArrays(GL_TRIANGLE_STRIP,0,4);

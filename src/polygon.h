@@ -15,6 +15,6 @@ protected:
 public:
     static PolygonPtr Make ();
     virtual ~Polygon ();
-    virtual void Draw ();
+    virtual void Draw (StatePtr st);
 };
 #endif

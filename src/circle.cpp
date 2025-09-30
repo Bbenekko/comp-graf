@@ -54,7 +54,7 @@ Circle::~Circle ()
 {
 }
 
-void Circle::Draw ()  
+void Circle::Draw (StatePtr st)  
 {
   glBindVertexArray(m_vao);
   glDrawArrays(GL_TRIANGLE_STRIP,0,(nSegments+1)*2);

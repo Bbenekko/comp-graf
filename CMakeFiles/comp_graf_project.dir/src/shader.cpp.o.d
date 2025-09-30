@@ -100,10 +100,15 @@ CMakeFiles/comp_graf_project.dir/src/shader.cpp.o: \
  /usr/include/c++/15/bits/atomic_lockfree_defines.h \
  /usr/include/c++/15/backward/auto_ptr.h \
  /usr/include/c++/15/pstl/glue_memory_defs.h \
- /usr/include/c++/15/pstl/execution_defs.h /usr/include/glm/glm.hpp \
- /usr/include/glm/detail/_fixes.hpp /usr/include/c++/15/cmath \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/c++/15/pstl/execution_defs.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/light.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/node.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/appearance.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/state.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/camera.h \
+ /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
+ /usr/include/c++/15/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
  /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
  /usr/include/bits/mathcalls-helper-functions.h \
@@ -251,21 +256,16 @@ CMakeFiles/comp_graf_project.dir/src/shader.cpp.o: \
  /usr/include/glm/packing.hpp /usr/include/glm/detail/func_packing.inl \
  /usr/include/glm/detail/type_half.hpp \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
- /usr/include/glm/detail/func_integer.inl /usr/include/c++/15/vector \
- /usr/include/c++/15/bits/stl_vector.h \
- /usr/include/c++/15/initializer_list \
- /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/range_access.h \
- /usr/include/c++/15/bits/vector.tcc \
- /usr/include/c++/15/bits/memory_resource.h \
- /usr/include/c++/15/bits/uses_allocator_args.h \
- /usr/include/c++/15/string /usr/include/c++/15/bits/char_traits.h \
+ /usr/include/glm/detail/func_integer.inl /usr/include/c++/15/string \
+ /usr/include/c++/15/bits/char_traits.h \
  /usr/include/c++/15/bits/localefwd.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/15/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/15/cctype \
  /usr/include/ctype.h /usr/include/c++/15/bits/ostream_insert.h \
  /usr/include/c++/15/bits/cxxabi_forced.h \
+ /usr/include/c++/15/bits/range_access.h \
+ /usr/include/c++/15/initializer_list \
  /usr/include/c++/15/bits/basic_string.h /usr/include/c++/15/string_view \
  /usr/include/c++/15/bits/string_view.tcc \
  /usr/include/c++/15/ext/string_conversions.h /usr/include/c++/15/cstdlib \
@@ -279,10 +279,17 @@ CMakeFiles/comp_graf_project.dir/src/shader.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/bits/types/error_t.h /usr/include/c++/15/bits/charconv.h \
  /usr/include/c++/15/bits/basic_string.tcc \
+ /usr/include/c++/15/bits/memory_resource.h \
+ /usr/include/c++/15/bits/uses_allocator_args.h \
+ /usr/include/c++/15/vector /usr/include/c++/15/bits/stl_vector.h \
+ /usr/include/c++/15/bits/stl_bvector.h \
+ /usr/include/c++/15/bits/vector.tcc \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/shape.h \
+ /home/neco/Documents/comp-graf-geral/comp-graf/src/transform.h \
  /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include/glad/glad.h \
  /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include/KHR/khrplatform.h \
- /usr/include/GLFW/glfw3.h /usr/include/glm/gtc/type_ptr.hpp \
- /usr/include/glm/gtc/quaternion.hpp /usr/include/glm/gtc/constants.hpp \
+ /usr/include/glm/gtc/type_ptr.hpp /usr/include/glm/gtc/quaternion.hpp \
+ /usr/include/glm/gtc/constants.hpp \
  /usr/include/glm/ext/scalar_constants.hpp \
  /usr/include/glm/ext/scalar_constants.inl \
  /usr/include/glm/gtc/constants.inl \
@@ -348,5 +355,4 @@ CMakeFiles/comp_graf_project.dir/src/shader.cpp.o: \
  /usr/include/c++/15/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/15/bits/fstream.tcc /usr/include/c++/15/iostream \
- /usr/include/c++/15/sstream /usr/include/c++/15/bits/sstream.tcc \
- /usr/include/GL/glcorearb.h
+ /usr/include/c++/15/sstream /usr/include/c++/15/bits/sstream.tcc

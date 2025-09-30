@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "/home/neco/Documents/comp-graf-geral/comp-graf"
+    "cmake.sourceDirectory": "/home/neco/Documents/comp-graf-geral/comp-graf",
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

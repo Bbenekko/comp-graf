@@ -38,5 +38,4 @@ CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: \
  /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
- /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
- /usr/include/dlfcn.h /usr/include/bits/dlfcn.h
+ /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h

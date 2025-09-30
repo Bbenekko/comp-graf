@@ -5,13 +5,13 @@
 # compile CXX with /usr/lib64/ccache/c++
 C_DEFINES = 
 
-C_INCLUDES = -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include
+C_INCLUDES = -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include
+CXX_INCLUDES = -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb
 
 CXX_FLAGS = 
 

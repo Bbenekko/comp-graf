@@ -153,6 +153,54 @@ external/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
+src/arcball.o: src/arcball.cpp.o
+.PHONY : src/arcball.o
+
+# target to build an object file
+src/arcball.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o
+.PHONY : src/arcball.cpp.o
+
+src/arcball.i: src/arcball.cpp.i
+.PHONY : src/arcball.i
+
+# target to preprocess a source file
+src/arcball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/arcball.cpp.i
+.PHONY : src/arcball.cpp.i
+
+src/arcball.s: src/arcball.cpp.s
+.PHONY : src/arcball.s
+
+# target to generate assembly for a file
+src/arcball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/arcball.cpp.s
+.PHONY : src/arcball.cpp.s
+
+src/camera2d.o: src/camera2d.cpp.o
+.PHONY : src/camera2d.o
+
+# target to build an object file
+src/camera2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o
+.PHONY : src/camera2d.cpp.o
+
+src/camera2d.i: src/camera2d.cpp.i
+.PHONY : src/camera2d.i
+
+# target to preprocess a source file
+src/camera2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.i
+.PHONY : src/camera2d.cpp.i
+
+src/camera2d.s: src/camera2d.cpp.s
+.PHONY : src/camera2d.s
+
+# target to generate assembly for a file
+src/camera2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.s
+.PHONY : src/camera2d.cpp.s
+
 src/circle.o: src/circle.cpp.o
 .PHONY : src/circle.o
 
@@ -176,6 +224,78 @@ src/circle.s: src/circle.cpp.s
 src/circle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/circle.cpp.s
 .PHONY : src/circle.cpp.s
+
+src/color.o: src/color.cpp.o
+.PHONY : src/color.o
+
+# target to build an object file
+src/color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/color.cpp.o
+.PHONY : src/color.cpp.o
+
+src/color.i: src/color.cpp.i
+.PHONY : src/color.i
+
+# target to preprocess a source file
+src/color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/color.cpp.i
+.PHONY : src/color.cpp.i
+
+src/color.s: src/color.cpp.s
+.PHONY : src/color.s
+
+# target to generate assembly for a file
+src/color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/color.cpp.s
+.PHONY : src/color.cpp.s
+
+src/computeshader.o: src/computeshader.cpp.o
+.PHONY : src/computeshader.o
+
+# target to build an object file
+src/computeshader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o
+.PHONY : src/computeshader.cpp.o
+
+src/computeshader.i: src/computeshader.cpp.i
+.PHONY : src/computeshader.i
+
+# target to preprocess a source file
+src/computeshader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.i
+.PHONY : src/computeshader.cpp.i
+
+src/computeshader.s: src/computeshader.cpp.s
+.PHONY : src/computeshader.s
+
+# target to generate assembly for a file
+src/computeshader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.s
+.PHONY : src/computeshader.cpp.s
+
+src/cube.o: src/cube.cpp.o
+.PHONY : src/cube.o
+
+# target to build an object file
+src/cube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/cube.cpp.o
+.PHONY : src/cube.cpp.o
+
+src/cube.i: src/cube.cpp.i
+.PHONY : src/cube.i
+
+# target to preprocess a source file
+src/cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/cube.cpp.i
+.PHONY : src/cube.cpp.i
+
+src/cube.s: src/cube.cpp.s
+.PHONY : src/cube.s
+
+# target to generate assembly for a file
+src/cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/cube.cpp.s
+.PHONY : src/cube.cpp.s
 
 src/error.o: src/error.cpp.o
 .PHONY : src/error.o
@@ -201,6 +321,102 @@ src/error.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/error.cpp.s
 .PHONY : src/error.cpp.s
 
+src/framebuffer.o: src/framebuffer.cpp.o
+.PHONY : src/framebuffer.o
+
+# target to build an object file
+src/framebuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o
+.PHONY : src/framebuffer.cpp.o
+
+src/framebuffer.i: src/framebuffer.cpp.i
+.PHONY : src/framebuffer.i
+
+# target to preprocess a source file
+src/framebuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.i
+.PHONY : src/framebuffer.cpp.i
+
+src/framebuffer.s: src/framebuffer.cpp.s
+.PHONY : src/framebuffer.s
+
+# target to generate assembly for a file
+src/framebuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.s
+.PHONY : src/framebuffer.cpp.s
+
+src/grid.o: src/grid.cpp.o
+.PHONY : src/grid.o
+
+# target to build an object file
+src/grid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/grid.cpp.o
+.PHONY : src/grid.cpp.o
+
+src/grid.i: src/grid.cpp.i
+.PHONY : src/grid.i
+
+# target to preprocess a source file
+src/grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/grid.cpp.i
+.PHONY : src/grid.cpp.i
+
+src/grid.s: src/grid.cpp.s
+.PHONY : src/grid.s
+
+# target to generate assembly for a file
+src/grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/grid.cpp.s
+.PHONY : src/grid.cpp.s
+
+src/image.o: src/image.cpp.o
+.PHONY : src/image.o
+
+# target to build an object file
+src/image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/image.cpp.o
+.PHONY : src/image.cpp.o
+
+src/image.i: src/image.cpp.i
+.PHONY : src/image.i
+
+# target to preprocess a source file
+src/image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/image.cpp.i
+.PHONY : src/image.cpp.i
+
+src/image.s: src/image.cpp.s
+.PHONY : src/image.s
+
+# target to generate assembly for a file
+src/image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/image.cpp.s
+.PHONY : src/image.cpp.s
+
+src/light.o: src/light.cpp.o
+.PHONY : src/light.o
+
+# target to build an object file
+src/light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/light.cpp.o
+.PHONY : src/light.cpp.o
+
+src/light.i: src/light.cpp.i
+.PHONY : src/light.i
+
+# target to preprocess a source file
+src/light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/light.cpp.i
+.PHONY : src/light.cpp.i
+
+src/light.s: src/light.cpp.s
+.PHONY : src/light.s
+
+# target to generate assembly for a file
+src/light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/light.cpp.s
+.PHONY : src/light.cpp.s
+
 src/line.o: src/line.cpp.o
 .PHONY : src/line.o
 
@@ -225,29 +441,101 @@ src/line.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/line.cpp.s
 .PHONY : src/line.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/main_2d.o: src/main_2d.cpp.o
+.PHONY : src/main_2d.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/main_2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o
+.PHONY : src/main_2d.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/main_2d.i: src/main_2d.cpp.i
+.PHONY : src/main_2d.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/main_2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.i
+.PHONY : src/main_2d.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/main_2d.s: src/main_2d.cpp.s
+.PHONY : src/main_2d.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main_2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.s
+.PHONY : src/main_2d.cpp.s
+
+src/material.o: src/material.cpp.o
+.PHONY : src/material.o
+
+# target to build an object file
+src/material.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/material.cpp.o
+.PHONY : src/material.cpp.o
+
+src/material.i: src/material.cpp.i
+.PHONY : src/material.i
+
+# target to preprocess a source file
+src/material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/material.cpp.i
+.PHONY : src/material.cpp.i
+
+src/material.s: src/material.cpp.s
+.PHONY : src/material.s
+
+# target to generate assembly for a file
+src/material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/material.cpp.s
+.PHONY : src/material.cpp.s
+
+src/mesh.o: src/mesh.cpp.o
+.PHONY : src/mesh.o
+
+# target to build an object file
+src/mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o
+.PHONY : src/mesh.cpp.o
+
+src/mesh.i: src/mesh.cpp.i
+.PHONY : src/mesh.i
+
+# target to preprocess a source file
+src/mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/mesh.cpp.i
+.PHONY : src/mesh.cpp.i
+
+src/mesh.s: src/mesh.cpp.s
+.PHONY : src/mesh.s
+
+# target to generate assembly for a file
+src/mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/mesh.cpp.s
+.PHONY : src/mesh.cpp.s
+
+src/node.o: src/node.cpp.o
+.PHONY : src/node.o
+
+# target to build an object file
+src/node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/node.cpp.o
+.PHONY : src/node.cpp.o
+
+src/node.i: src/node.cpp.i
+.PHONY : src/node.i
+
+# target to preprocess a source file
+src/node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/node.cpp.i
+.PHONY : src/node.cpp.i
+
+src/node.s: src/node.cpp.s
+.PHONY : src/node.s
+
+# target to generate assembly for a file
+src/node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/node.cpp.s
+.PHONY : src/node.cpp.s
 
 src/polygon.o: src/polygon.cpp.o
 .PHONY : src/polygon.o
@@ -273,6 +561,78 @@ src/polygon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polygon.cpp.s
 .PHONY : src/polygon.cpp.s
 
+src/polyoffset.o: src/polyoffset.cpp.o
+.PHONY : src/polyoffset.o
+
+# target to build an object file
+src/polyoffset.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o
+.PHONY : src/polyoffset.cpp.o
+
+src/polyoffset.i: src/polyoffset.cpp.i
+.PHONY : src/polyoffset.i
+
+# target to preprocess a source file
+src/polyoffset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.i
+.PHONY : src/polyoffset.cpp.i
+
+src/polyoffset.s: src/polyoffset.cpp.s
+.PHONY : src/polyoffset.s
+
+# target to generate assembly for a file
+src/polyoffset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.s
+.PHONY : src/polyoffset.cpp.s
+
+src/quad.o: src/quad.cpp.o
+.PHONY : src/quad.o
+
+# target to build an object file
+src/quad.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/quad.cpp.o
+.PHONY : src/quad.cpp.o
+
+src/quad.i: src/quad.cpp.i
+.PHONY : src/quad.i
+
+# target to preprocess a source file
+src/quad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/quad.cpp.i
+.PHONY : src/quad.cpp.i
+
+src/quad.s: src/quad.cpp.s
+.PHONY : src/quad.s
+
+# target to generate assembly for a file
+src/quad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/quad.cpp.s
+.PHONY : src/quad.cpp.s
+
+src/scene.o: src/scene.cpp.o
+.PHONY : src/scene.o
+
+# target to build an object file
+src/scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/scene.cpp.o
+.PHONY : src/scene.cpp.o
+
+src/scene.i: src/scene.cpp.i
+.PHONY : src/scene.i
+
+# target to preprocess a source file
+src/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/scene.cpp.i
+.PHONY : src/scene.cpp.i
+
+src/scene.s: src/scene.cpp.s
+.PHONY : src/scene.s
+
+# target to generate assembly for a file
+src/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/scene.cpp.s
+.PHONY : src/scene.cpp.s
+
 src/shader.o: src/shader.cpp.o
 .PHONY : src/shader.o
 
@@ -296,6 +656,174 @@ src/shader.s: src/shader.cpp.s
 src/shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/shader.cpp.s
 .PHONY : src/shader.cpp.s
+
+src/sphere.o: src/sphere.cpp.o
+.PHONY : src/sphere.o
+
+# target to build an object file
+src/sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o
+.PHONY : src/sphere.cpp.o
+
+src/sphere.i: src/sphere.cpp.i
+.PHONY : src/sphere.i
+
+# target to preprocess a source file
+src/sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/sphere.cpp.i
+.PHONY : src/sphere.cpp.i
+
+src/sphere.s: src/sphere.cpp.s
+.PHONY : src/sphere.s
+
+# target to generate assembly for a file
+src/sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/sphere.cpp.s
+.PHONY : src/sphere.cpp.s
+
+src/state.o: src/state.cpp.o
+.PHONY : src/state.o
+
+# target to build an object file
+src/state.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/state.cpp.o
+.PHONY : src/state.cpp.o
+
+src/state.i: src/state.cpp.i
+.PHONY : src/state.i
+
+# target to preprocess a source file
+src/state.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/state.cpp.i
+.PHONY : src/state.cpp.i
+
+src/state.s: src/state.cpp.s
+.PHONY : src/state.s
+
+# target to generate assembly for a file
+src/state.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/state.cpp.s
+.PHONY : src/state.cpp.s
+
+src/texbuffer.o: src/texbuffer.cpp.o
+.PHONY : src/texbuffer.o
+
+# target to build an object file
+src/texbuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o
+.PHONY : src/texbuffer.cpp.o
+
+src/texbuffer.i: src/texbuffer.cpp.i
+.PHONY : src/texbuffer.i
+
+# target to preprocess a source file
+src/texbuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.i
+.PHONY : src/texbuffer.cpp.i
+
+src/texbuffer.s: src/texbuffer.cpp.s
+.PHONY : src/texbuffer.s
+
+# target to generate assembly for a file
+src/texbuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.s
+.PHONY : src/texbuffer.cpp.s
+
+src/texcube.o: src/texcube.cpp.o
+.PHONY : src/texcube.o
+
+# target to build an object file
+src/texcube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o
+.PHONY : src/texcube.cpp.o
+
+src/texcube.i: src/texcube.cpp.i
+.PHONY : src/texcube.i
+
+# target to preprocess a source file
+src/texcube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texcube.cpp.i
+.PHONY : src/texcube.cpp.i
+
+src/texcube.s: src/texcube.cpp.s
+.PHONY : src/texcube.s
+
+# target to generate assembly for a file
+src/texcube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texcube.cpp.s
+.PHONY : src/texcube.cpp.s
+
+src/texdepth.o: src/texdepth.cpp.o
+.PHONY : src/texdepth.o
+
+# target to build an object file
+src/texdepth.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o
+.PHONY : src/texdepth.cpp.o
+
+src/texdepth.i: src/texdepth.cpp.i
+.PHONY : src/texdepth.i
+
+# target to preprocess a source file
+src/texdepth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.i
+.PHONY : src/texdepth.cpp.i
+
+src/texdepth.s: src/texdepth.cpp.s
+.PHONY : src/texdepth.s
+
+# target to generate assembly for a file
+src/texdepth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.s
+.PHONY : src/texdepth.cpp.s
+
+src/texture.o: src/texture.cpp.o
+.PHONY : src/texture.o
+
+# target to build an object file
+src/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texture.cpp.o
+.PHONY : src/texture.cpp.o
+
+src/texture.i: src/texture.cpp.i
+.PHONY : src/texture.i
+
+# target to preprocess a source file
+src/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texture.cpp.i
+.PHONY : src/texture.cpp.i
+
+src/texture.s: src/texture.cpp.s
+.PHONY : src/texture.s
+
+# target to generate assembly for a file
+src/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texture.cpp.s
+.PHONY : src/texture.cpp.s
+
+src/transform.o: src/transform.cpp.o
+.PHONY : src/transform.o
+
+# target to build an object file
+src/transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/transform.cpp.o
+.PHONY : src/transform.cpp.o
+
+src/transform.i: src/transform.cpp.i
+.PHONY : src/transform.i
+
+# target to preprocess a source file
+src/transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/transform.cpp.i
+.PHONY : src/transform.cpp.i
+
+src/transform.s: src/transform.cpp.s
+.PHONY : src/transform.s
+
+# target to generate assembly for a file
+src/transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/transform.cpp.s
+.PHONY : src/transform.cpp.s
 
 src/triangle.o: src/triangle.cpp.o
 .PHONY : src/triangle.o
@@ -333,24 +861,90 @@ help:
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"
 	@echo "... external/glad/src/glad.s"
+	@echo "... src/arcball.o"
+	@echo "... src/arcball.i"
+	@echo "... src/arcball.s"
+	@echo "... src/camera2d.o"
+	@echo "... src/camera2d.i"
+	@echo "... src/camera2d.s"
 	@echo "... src/circle.o"
 	@echo "... src/circle.i"
 	@echo "... src/circle.s"
+	@echo "... src/color.o"
+	@echo "... src/color.i"
+	@echo "... src/color.s"
+	@echo "... src/computeshader.o"
+	@echo "... src/computeshader.i"
+	@echo "... src/computeshader.s"
+	@echo "... src/cube.o"
+	@echo "... src/cube.i"
+	@echo "... src/cube.s"
 	@echo "... src/error.o"
 	@echo "... src/error.i"
 	@echo "... src/error.s"
+	@echo "... src/framebuffer.o"
+	@echo "... src/framebuffer.i"
+	@echo "... src/framebuffer.s"
+	@echo "... src/grid.o"
+	@echo "... src/grid.i"
+	@echo "... src/grid.s"
+	@echo "... src/image.o"
+	@echo "... src/image.i"
+	@echo "... src/image.s"
+	@echo "... src/light.o"
+	@echo "... src/light.i"
+	@echo "... src/light.s"
 	@echo "... src/line.o"
 	@echo "... src/line.i"
 	@echo "... src/line.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/main_2d.o"
+	@echo "... src/main_2d.i"
+	@echo "... src/main_2d.s"
+	@echo "... src/material.o"
+	@echo "... src/material.i"
+	@echo "... src/material.s"
+	@echo "... src/mesh.o"
+	@echo "... src/mesh.i"
+	@echo "... src/mesh.s"
+	@echo "... src/node.o"
+	@echo "... src/node.i"
+	@echo "... src/node.s"
 	@echo "... src/polygon.o"
 	@echo "... src/polygon.i"
 	@echo "... src/polygon.s"
+	@echo "... src/polyoffset.o"
+	@echo "... src/polyoffset.i"
+	@echo "... src/polyoffset.s"
+	@echo "... src/quad.o"
+	@echo "... src/quad.i"
+	@echo "... src/quad.s"
+	@echo "... src/scene.o"
+	@echo "... src/scene.i"
+	@echo "... src/scene.s"
 	@echo "... src/shader.o"
 	@echo "... src/shader.i"
 	@echo "... src/shader.s"
+	@echo "... src/sphere.o"
+	@echo "... src/sphere.i"
+	@echo "... src/sphere.s"
+	@echo "... src/state.o"
+	@echo "... src/state.i"
+	@echo "... src/state.s"
+	@echo "... src/texbuffer.o"
+	@echo "... src/texbuffer.i"
+	@echo "... src/texbuffer.s"
+	@echo "... src/texcube.o"
+	@echo "... src/texcube.i"
+	@echo "... src/texcube.s"
+	@echo "... src/texdepth.o"
+	@echo "... src/texdepth.i"
+	@echo "... src/texdepth.s"
+	@echo "... src/texture.o"
+	@echo "... src/texture.i"
+	@echo "... src/texture.s"
+	@echo "... src/transform.o"
+	@echo "... src/transform.i"
+	@echo "... src/transform.s"
 	@echo "... src/triangle.o"
 	@echo "... src/triangle.i"
 	@echo "... src/triangle.s"

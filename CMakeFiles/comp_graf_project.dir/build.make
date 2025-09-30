@@ -72,19 +72,19 @@ include CMakeFiles/comp_graf_project.dir/flags.make
 CMakeFiles/comp_graf_project.dir/codegen:
 .PHONY : CMakeFiles/comp_graf_project.dir/codegen
 
-CMakeFiles/comp_graf_project.dir/src/main.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
-CMakeFiles/comp_graf_project.dir/src/main.cpp.o: src/main.cpp
-CMakeFiles/comp_graf_project.dir/src/main.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/comp_graf_project.dir/src/main.cpp.o"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/main.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/main.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/main.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp
+CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: src/main_2d.cpp
+CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/main_2d.cpp
 
-CMakeFiles/comp_graf_project.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/main.cpp.i"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp > CMakeFiles/comp_graf_project.dir/src/main.cpp.i
+CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/main_2d.cpp > CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.i
 
-CMakeFiles/comp_graf_project.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/main.cpp.s"
-	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/main.cpp -o CMakeFiles/comp_graf_project.dir/src/main.cpp.s
+CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/main_2d.cpp -o CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.s
 
 CMakeFiles/comp_graf_project.dir/src/shader.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
 CMakeFiles/comp_graf_project.dir/src/shader.cpp.o: src/shader.cpp
@@ -170,10 +170,318 @@ CMakeFiles/comp_graf_project.dir/src/error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/error.cpp.s"
 	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp -o CMakeFiles/comp_graf_project.dir/src/error.cpp.s
 
+CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o: src/camera2d.cpp
+CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/camera2d.cpp
+
+CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/camera2d.cpp > CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/camera2d.cpp -o CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/transform.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/transform.cpp.o: src/transform.cpp
+CMakeFiles/comp_graf_project.dir/src/transform.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/comp_graf_project.dir/src/transform.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/transform.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/transform.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/transform.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/transform.cpp
+
+CMakeFiles/comp_graf_project.dir/src/transform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/transform.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/transform.cpp > CMakeFiles/comp_graf_project.dir/src/transform.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/transform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/transform.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/transform.cpp -o CMakeFiles/comp_graf_project.dir/src/transform.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/state.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/state.cpp.o: src/state.cpp
+CMakeFiles/comp_graf_project.dir/src/state.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/comp_graf_project.dir/src/state.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/state.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/state.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/state.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/state.cpp
+
+CMakeFiles/comp_graf_project.dir/src/state.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/state.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/state.cpp > CMakeFiles/comp_graf_project.dir/src/state.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/state.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/state.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/state.cpp -o CMakeFiles/comp_graf_project.dir/src/state.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/scene.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/scene.cpp.o: src/scene.cpp
+CMakeFiles/comp_graf_project.dir/src/scene.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/comp_graf_project.dir/src/scene.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/scene.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/scene.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/scene.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/scene.cpp
+
+CMakeFiles/comp_graf_project.dir/src/scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/scene.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/scene.cpp > CMakeFiles/comp_graf_project.dir/src/scene.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/scene.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/scene.cpp -o CMakeFiles/comp_graf_project.dir/src/scene.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/node.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/node.cpp.o: src/node.cpp
+CMakeFiles/comp_graf_project.dir/src/node.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/comp_graf_project.dir/src/node.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/node.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/node.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/node.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/node.cpp
+
+CMakeFiles/comp_graf_project.dir/src/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/node.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/node.cpp > CMakeFiles/comp_graf_project.dir/src/node.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/node.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/node.cpp -o CMakeFiles/comp_graf_project.dir/src/node.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/quad.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/quad.cpp.o: src/quad.cpp
+CMakeFiles/comp_graf_project.dir/src/quad.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/comp_graf_project.dir/src/quad.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/quad.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/quad.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/quad.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/quad.cpp
+
+CMakeFiles/comp_graf_project.dir/src/quad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/quad.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/quad.cpp > CMakeFiles/comp_graf_project.dir/src/quad.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/quad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/quad.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/quad.cpp -o CMakeFiles/comp_graf_project.dir/src/quad.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/grid.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/grid.cpp.o: src/grid.cpp
+CMakeFiles/comp_graf_project.dir/src/grid.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/comp_graf_project.dir/src/grid.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/grid.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/grid.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/grid.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/grid.cpp
+
+CMakeFiles/comp_graf_project.dir/src/grid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/grid.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/grid.cpp > CMakeFiles/comp_graf_project.dir/src/grid.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/grid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/grid.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/grid.cpp -o CMakeFiles/comp_graf_project.dir/src/grid.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o: src/arcball.cpp
+CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/arcball.cpp
+
+CMakeFiles/comp_graf_project.dir/src/arcball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/arcball.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/arcball.cpp > CMakeFiles/comp_graf_project.dir/src/arcball.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/arcball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/arcball.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/arcball.cpp -o CMakeFiles/comp_graf_project.dir/src/arcball.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/color.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/color.cpp.o: src/color.cpp
+CMakeFiles/comp_graf_project.dir/src/color.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/comp_graf_project.dir/src/color.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/color.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/color.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/color.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/color.cpp
+
+CMakeFiles/comp_graf_project.dir/src/color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/color.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/color.cpp > CMakeFiles/comp_graf_project.dir/src/color.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/color.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/color.cpp -o CMakeFiles/comp_graf_project.dir/src/color.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o: src/computeshader.cpp
+CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/computeshader.cpp
+
+CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/computeshader.cpp > CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/computeshader.cpp -o CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/cube.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/cube.cpp.o: src/cube.cpp
+CMakeFiles/comp_graf_project.dir/src/cube.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/comp_graf_project.dir/src/cube.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/cube.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/cube.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/cube.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/cube.cpp
+
+CMakeFiles/comp_graf_project.dir/src/cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/cube.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/cube.cpp > CMakeFiles/comp_graf_project.dir/src/cube.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/cube.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/cube.cpp -o CMakeFiles/comp_graf_project.dir/src/cube.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o: src/framebuffer.cpp
+CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/framebuffer.cpp
+
+CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/framebuffer.cpp > CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/framebuffer.cpp -o CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/image.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/image.cpp.o: src/image.cpp
+CMakeFiles/comp_graf_project.dir/src/image.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/comp_graf_project.dir/src/image.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/image.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/image.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/image.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/image.cpp
+
+CMakeFiles/comp_graf_project.dir/src/image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/image.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/image.cpp > CMakeFiles/comp_graf_project.dir/src/image.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/image.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/image.cpp -o CMakeFiles/comp_graf_project.dir/src/image.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/light.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/light.cpp.o: src/light.cpp
+CMakeFiles/comp_graf_project.dir/src/light.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/comp_graf_project.dir/src/light.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/light.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/light.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/light.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/light.cpp
+
+CMakeFiles/comp_graf_project.dir/src/light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/light.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/light.cpp > CMakeFiles/comp_graf_project.dir/src/light.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/light.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/light.cpp -o CMakeFiles/comp_graf_project.dir/src/light.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/material.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/material.cpp.o: src/material.cpp
+CMakeFiles/comp_graf_project.dir/src/material.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/comp_graf_project.dir/src/material.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/material.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/material.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/material.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/material.cpp
+
+CMakeFiles/comp_graf_project.dir/src/material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/material.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/material.cpp > CMakeFiles/comp_graf_project.dir/src/material.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/material.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/material.cpp -o CMakeFiles/comp_graf_project.dir/src/material.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o: src/mesh.cpp
+CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/mesh.cpp
+
+CMakeFiles/comp_graf_project.dir/src/mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/mesh.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/mesh.cpp > CMakeFiles/comp_graf_project.dir/src/mesh.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/mesh.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/mesh.cpp -o CMakeFiles/comp_graf_project.dir/src/mesh.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o: src/polyoffset.cpp
+CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/polyoffset.cpp
+
+CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/polyoffset.cpp > CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/polyoffset.cpp -o CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o: src/sphere.cpp
+CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/sphere.cpp
+
+CMakeFiles/comp_graf_project.dir/src/sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/sphere.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/sphere.cpp > CMakeFiles/comp_graf_project.dir/src/sphere.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/sphere.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/sphere.cpp -o CMakeFiles/comp_graf_project.dir/src/sphere.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o: src/texbuffer.cpp
+CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/texbuffer.cpp
+
+CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/texbuffer.cpp > CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/texbuffer.cpp -o CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o: src/texcube.cpp
+CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/texcube.cpp
+
+CMakeFiles/comp_graf_project.dir/src/texcube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/texcube.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/texcube.cpp > CMakeFiles/comp_graf_project.dir/src/texcube.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/texcube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/texcube.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/texcube.cpp -o CMakeFiles/comp_graf_project.dir/src/texcube.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o: src/texdepth.cpp
+CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/texdepth.cpp
+
+CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/texdepth.cpp > CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/texdepth.cpp -o CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.s
+
+CMakeFiles/comp_graf_project.dir/src/texture.cpp.o: CMakeFiles/comp_graf_project.dir/flags.make
+CMakeFiles/comp_graf_project.dir/src/texture.cpp.o: src/texture.cpp
+CMakeFiles/comp_graf_project.dir/src/texture.cpp.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/comp_graf_project.dir/src/texture.cpp.o"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/src/texture.cpp.o -MF CMakeFiles/comp_graf_project.dir/src/texture.cpp.o.d -o CMakeFiles/comp_graf_project.dir/src/texture.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/texture.cpp
+
+CMakeFiles/comp_graf_project.dir/src/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/comp_graf_project.dir/src/texture.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/neco/Documents/comp-graf-geral/comp-graf/src/texture.cpp > CMakeFiles/comp_graf_project.dir/src/texture.cpp.i
+
+CMakeFiles/comp_graf_project.dir/src/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/comp_graf_project.dir/src/texture.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/neco/Documents/comp-graf-geral/comp-graf/src/texture.cpp -o CMakeFiles/comp_graf_project.dir/src/texture.cpp.s
+
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: CMakeFiles/comp_graf_project.dir/flags.make
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: external/glad/src/glad.c
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
 	/usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -MF CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o.d -o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -c /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c
 
 CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.i: cmake_force
@@ -186,30 +494,74 @@ CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.s: cmake_force
 
 # Object files for target comp_graf_project
 comp_graf_project_OBJECTS = \
-"CMakeFiles/comp_graf_project.dir/src/main.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/shader.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/circle.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/line.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/src/error.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/transform.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/state.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/scene.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/node.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/quad.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/grid.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/color.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/cube.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/image.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/light.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/material.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o" \
+"CMakeFiles/comp_graf_project.dir/src/texture.cpp.o" \
 "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
 
 # External object files for target comp_graf_project
 comp_graf_project_EXTERNAL_OBJECTS =
 
-comp_graf_project: CMakeFiles/comp_graf_project.dir/src/main.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/shader.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/circle.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/line.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/src/error.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/transform.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/state.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/scene.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/node.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/quad.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/grid.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/color.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/cube.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/image.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/light.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/material.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o
+comp_graf_project: CMakeFiles/comp_graf_project.dir/src/texture.cpp.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o
 comp_graf_project: CMakeFiles/comp_graf_project.dir/build.make
 comp_graf_project: CMakeFiles/comp_graf_project.dir/compiler_depend.ts
 comp_graf_project: CMakeFiles/comp_graf_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable comp_graf_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable comp_graf_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/comp_graf_project.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E copy_directory /home/neco/Documents/comp-graf-geral/comp-graf/src/shaders /home/neco/Documents/comp-graf-geral/comp-graf/shaders
 

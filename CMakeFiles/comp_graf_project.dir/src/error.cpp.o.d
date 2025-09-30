@@ -100,10 +100,10 @@ CMakeFiles/comp_graf_project.dir/src/error.cpp.o: \
  /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/GLFW/glfw3.h \
- /usr/include/c++/15/iostream /usr/include/c++/15/ostream \
- /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
- /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \
+ /usr/include/bits/stdint-least.h /usr/include/c++/15/iostream \
+ /usr/include/c++/15/ostream /usr/include/c++/15/bits/ostream.h \
+ /usr/include/c++/15/ios /usr/include/c++/15/exception \
+ /usr/include/c++/15/bits/exception_ptr.h \
  /usr/include/c++/15/bits/cxxabi_init_exception.h \
  /usr/include/c++/15/typeinfo /usr/include/c++/15/bits/nested_exception.h \
  /usr/include/c++/15/bits/ios_base.h /usr/include/c++/15/ext/atomicity.h \

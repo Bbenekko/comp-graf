@@ -14,6 +14,6 @@ protected:
 public:
   static LinePtr Make ();
   virtual ~Line ();
-  virtual void Draw ();
+  virtual void Draw (StatePtr st);
 };
 #endif

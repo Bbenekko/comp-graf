@@ -75,7 +75,7 @@ Polygon::~Polygon ()
 {
 }
 
-void Polygon::Draw ()
+void Polygon::Draw (StatePtr st)
 {
   glBindVertexArray(m_vao);
   glDrawArrays(GL_TRIANGLE_FAN,0,m_vertex);
