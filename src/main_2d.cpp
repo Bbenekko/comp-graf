@@ -45,20 +45,25 @@ using MoveDiskPtr = std::shared_ptr<MoveDisk>;
 class MoveDisk : public Engine 
 {
   TransformPtr m_trf;
-  float m_value;
+  float m_speed;
+  float m_translation_scale;
+  float m_angle = 0.0f;
 protected:
-  MoveDisk (TransformPtr trf, float value) 
-  : m_trf(trf), m_value(value)
+  MoveDisk (TransformPtr trf, float speed, float translation_scale) 
+  : m_trf(trf), m_speed(speed), m_translation_scale(translation_scale)
   {
   }
 public:
-  static MoveDiskPtr Make (TransformPtr trf, float value)
+  static MoveDiskPtr Make (TransformPtr trf, float speed, float translation_scale)
   {
-    return MoveDiskPtr(new MoveDisk(trf, value));
+    return MoveDiskPtr(new MoveDisk(trf, speed, translation_scale));
   }
   virtual void Update (float dt)
   {
-    m_trf->Rotate(-dt/m_value*180.0f,0,0,1);
+    m_angle += -dt/m_speed*180.0f;
+    m_trf->LoadIdentity();
+    m_trf->Rotate(m_angle,0,0,1);
+    m_trf->Translate(m_translation_scale, 0.0f, 0.0f);
   }
 };
 
@@ -72,32 +77,36 @@ static void initialize (void)
   // create objects
   camera = Camera2D::Make(0,10,0,10);
 
+  auto trf5 = Transform::Make();
+  trf5->Scale(0.5f, 0.5f, 1.0f);
+  auto lua = Node::Make(trf5, {Color::Make(0.8, 0.8, 1)}, {Disk::Make()});
+
+  auto trf4 = Transform::Make();
+  auto centroGravTerra = Node::Make(trf4, {}, {}, {lua});
+
   auto trf3 = Transform::Make();
   trf3->Scale(0.4f, 0.4f, 1.0f);
-  trf3->Translate(5.0f, 5.0f, 0.0f);
-  auto lua = Node::Make(trf3, {Color::Make(0.9, 0.9, 1)}, {Disk::Make()});
+  auto terra = Node::Make(trf3, {Color::Make(0, 0, 1)}, {Disk::Make()}, {centroGravTerra});
 
   auto trf2 = Transform::Make();
-  trf2->Scale(0.3f,0.3f,1.0f);
-  trf2->Translate(8.0f ,8.0f, 0.0f);
-  auto terra = Node::Make(trf2, {Color::Make(0,0,1)},{Disk::Make()}, {lua});
+  auto centroGravSol = Node::Make(trf2, {}, {}, {terra});
 
   auto trf1 = Transform::Make();
   trf1->Scale(1.0f,1.0f,1.0f);
   trf1->Translate(5.0f,5.0f,0.0f);
-  auto sol = Node::Make(trf1,{Color::Make(1,1,0)},{Disk::Make()}, {terra});
+  auto sol = Node::Make(trf1,{Color::Make(1,1,0)},{Disk::Make()}, {centroGravSol});
 
   auto shader = Shader::Make();
-  shader->AttachVertexShader("/home/neco/Documents/comp-graf-geral/comp-graf/src/shaders/2d/vertex.glsl");
-  shader->AttachFragmentShader("/home/neco/Documents/comp-graf-geral/comp-graf/src/shaders/2d/fragment.glsl");
+  shader->AttachVertexShader("./shaders/2d/vertex.glsl");
+  shader->AttachFragmentShader("./shaders/2d/fragment.glsl");
   shader->Link();
 
   // build scene
   
   auto root = Node::Make(shader, {sol});
   scene = Scene::Make(root);
-  scene->AddEngine(MoveDisk::Make(trf2, 10.0f));
-  scene->AddEngine(MoveDisk::Make(trf1, 15.0f));
+  scene->AddEngine(MoveDisk::Make(trf2, 10.0f, 3.5f));
+  scene->AddEngine(MoveDisk::Make(trf4, 20.0f, 2.5f));
 }
 
 static void display (GLFWwindow* win)
