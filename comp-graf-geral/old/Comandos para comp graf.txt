@@ -1,0 +1,10 @@
+Comandos para comp graf:
+
+cria executável:
+g++ main.cpp -o main -lglfw -ldl -lGL 
+
+Cabeçário básico (para rodar em linux):
+(Apaga todos os cabecários de windows e mac.
+
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
