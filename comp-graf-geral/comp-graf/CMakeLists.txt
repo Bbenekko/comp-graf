@@ -1,53 +1,48 @@
-cmake_minimum_required(VERSION 3.16)
-project(comp_graf_project VERSION 0.1)
+  cmake_minimum_required(VERSION 3.16)
+  project(sistema_solar)
 
-file(GLOB SRC_FILES
-    src/*.cpp
-    external/glad/src/glad.c
-)
+  set(CMAKE_CXX_STANDARD 17)
+  set(CMAKE_CXX_STANDARD_REQUIRED ON)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -DGL_SILENCE_DEPRECATION ")
 
-include_directories( SYSTEM "external/glad/include" "external/stb" )
+  set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(comp_graf_project 
-    src/main_2d.cpp
-    src/shader.cpp
-    src/triangle.cpp
-    src/polygon.cpp
-    src/circle.cpp
-    src/line.cpp
-    src/error.cpp
-    src/camera2d.cpp
-    src/transform.cpp
-    src/state.cpp
-    src/scene.cpp
-    src/node.cpp
-    src/quad.cpp
-    src/grid.cpp
-    src/arcball.cpp
-    src/color.cpp
-    src/computeshader.cpp
-    src/cube.cpp
-    src/framebuffer.cpp
-    src/image.cpp
-    src/light.cpp
-    src/material.cpp
-    #src/main_gpgpu.cpp
-    src/mesh.cpp
-    src/polyoffset.cpp
-    src/sphere.cpp
-    src/texbuffer.cpp
-    src/texcube.cpp
-    src/texdepth.cpp
-    src/texture.cpp
-    src/disk.cpp
+  include_directories(include)
 
-    external/glad/src/glad.c
-)
+  find_package(OpenGL REQUIRED)
+  find_package(glfw3 REQUIRED)
+  find_package(assimp REQUIRED)
 
-add_custom_command(TARGET comp_graf_project POST_BUILD
-  COMMAND ${CMAKE_COMMAND} -E copy_directory
-          ${CMAKE_SOURCE_DIR}/src/shaders
-          $<TARGET_FILE_DIR:comp_graf_project>/shaders
-)
+  add_library(glad STATIC ${CMAKE_CURRENT_SOURCE_DIR}/include/glad/src/glad.c)
+  target_include_directories(glad PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-target_link_libraries(comp_graf_project glfw)
+  file(GLOB ALL_SRCS "src/**.cpp")
+
+  set(COMMON_SRCS)
+  set(MAIN_SRCS)
+
+  foreach(SRC_FILE ${ALL_SRCS})
+    file(READ ${SRC_FILE} FILE_CONTENT)
+    string(FIND "${FILE_CONTENT}" "int main" HAS_MAIN)
+
+    if(HAS_MAIN GREATER_EQUAL 0)
+      list(APPEND MAIN_SRCS ${SRC_FILE})
+    else()
+      list(APPEND COMMON_SRCS ${SRC_FILE})
+    endif()
+  endforeach()
+
+  foreach(MAIN_FILE ${MAIN_SRCS})
+    get_filename_component(EXE_NAME ${MAIN_FILE} NAME_WE)
+
+    message(STATUS "Criando executável: ${EXE_NAME} a partir de ${MAIN_FILE}")
+
+    add_executable(${EXE_NAME} ${COMMON_SRCS} ${MAIN_FILE})
+    target_link_libraries(${EXE_NAME} OpenGL::GL glfw assimp::assimp glad)
+    target_compile_definitions(${EXE_NAME} PRIVATE STB_IMAGE_IMPLEMENTATION)
+  endforeach()
+
+  list(LENGTH MAIN_SRCS NUM_MAINS)
+  if(NUM_MAINS EQUAL 0)
+  message(WARNING "Nenhum arquivo com main() encontrado")
+  endif()

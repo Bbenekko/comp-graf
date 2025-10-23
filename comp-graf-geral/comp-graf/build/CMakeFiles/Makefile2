@@ -54,20 +54,26 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neco/Documents/comp-graf-geral/comp-graf
+CMAKE_SOURCE_DIR = /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neco/Documents/comp-graf-geral/comp-graf/build
+CMAKE_BINARY_DIR = /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/comp_graf_project.dir/all
+all: CMakeFiles/glad.dir/all
+all: CMakeFiles/main_2d.dir/all
+all: CMakeFiles/main_3d.dir/all
+all: CMakeFiles/main_gpgpu.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/comp_graf_project.dir/codegen
+codegen: CMakeFiles/glad.dir/codegen
+codegen: CMakeFiles/main_2d.dir/codegen
+codegen: CMakeFiles/main_3d.dir/codegen
+codegen: CMakeFiles/main_gpgpu.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +81,139 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/comp_graf_project.dir/clean
+clean: CMakeFiles/glad.dir/clean
+clean: CMakeFiles/main_2d.dir/clean
+clean: CMakeFiles/main_3d.dir/clean
+clean: CMakeFiles/main_gpgpu.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/comp_graf_project.dir
+# Target rules for target CMakeFiles/glad.dir
 
 # All Build rule for target.
-CMakeFiles/comp_graf_project.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target comp_graf_project"
-.PHONY : CMakeFiles/comp_graf_project.dir/all
+CMakeFiles/glad.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=1,2 "Built target glad"
+.PHONY : CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/comp_graf_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles 32
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/comp_graf_project.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles 0
-.PHONY : CMakeFiles/comp_graf_project.dir/rule
+CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 0
+.PHONY : CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
-comp_graf_project: CMakeFiles/comp_graf_project.dir/rule
-.PHONY : comp_graf_project
+glad: CMakeFiles/glad.dir/rule
+.PHONY : glad
 
 # codegen rule for target.
-CMakeFiles/comp_graf_project.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Finished codegen for target comp_graf_project"
-.PHONY : CMakeFiles/comp_graf_project.dir/codegen
+CMakeFiles/glad.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=1,2 "Finished codegen for target glad"
+.PHONY : CMakeFiles/glad.dir/codegen
 
 # clean rule for target.
-CMakeFiles/comp_graf_project.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/clean
-.PHONY : CMakeFiles/comp_graf_project.dir/clean
+CMakeFiles/glad.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/clean
+.PHONY : CMakeFiles/glad.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main_2d.dir
+
+# All Build rule for target.
+CMakeFiles/main_2d.dir/all: CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target main_2d"
+.PHONY : CMakeFiles/main_2d.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main_2d.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 34
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_2d.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 0
+.PHONY : CMakeFiles/main_2d.dir/rule
+
+# Convenience name for target.
+main_2d: CMakeFiles/main_2d.dir/rule
+.PHONY : main_2d
+
+# codegen rule for target.
+CMakeFiles/main_2d.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Finished codegen for target main_2d"
+.PHONY : CMakeFiles/main_2d.dir/codegen
+
+# clean rule for target.
+CMakeFiles/main_2d.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/clean
+.PHONY : CMakeFiles/main_2d.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main_3d.dir
+
+# All Build rule for target.
+CMakeFiles/main_3d.dir/all: CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target main_3d"
+.PHONY : CMakeFiles/main_3d.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main_3d.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 34
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_3d.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 0
+.PHONY : CMakeFiles/main_3d.dir/rule
+
+# Convenience name for target.
+main_3d: CMakeFiles/main_3d.dir/rule
+.PHONY : main_3d
+
+# codegen rule for target.
+CMakeFiles/main_3d.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Finished codegen for target main_3d"
+.PHONY : CMakeFiles/main_3d.dir/codegen
+
+# clean rule for target.
+CMakeFiles/main_3d.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/clean
+.PHONY : CMakeFiles/main_3d.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main_gpgpu.dir
+
+# All Build rule for target.
+CMakeFiles/main_gpgpu.dir/all: CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target main_gpgpu"
+.PHONY : CMakeFiles/main_gpgpu.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main_gpgpu.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 34
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_gpgpu.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 0
+.PHONY : CMakeFiles/main_gpgpu.dir/rule
+
+# Convenience name for target.
+main_gpgpu: CMakeFiles/main_gpgpu.dir/rule
+.PHONY : main_gpgpu
+
+# codegen rule for target.
+CMakeFiles/main_gpgpu.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles --progress-num=67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Finished codegen for target main_gpgpu"
+.PHONY : CMakeFiles/main_gpgpu.dir/codegen
+
+# clean rule for target.
+CMakeFiles/main_gpgpu.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/clean
+.PHONY : CMakeFiles/main_gpgpu.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

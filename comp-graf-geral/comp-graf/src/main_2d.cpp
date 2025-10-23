@@ -17,7 +17,6 @@
 
 static ScenePtr scene;
 static CameraPtr camera;
-static int abluble = 0;
 
 class MovePointer;
 using MovePointerPtr = std::shared_ptr<MovePointer>;

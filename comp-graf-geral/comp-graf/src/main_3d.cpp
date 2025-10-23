@@ -166,12 +166,12 @@ int main ()
   glfwSetMouseButtonCallback(win, mousebutton); // mouse button callback
   
   glfwMakeContextCurrent(win);
-#ifdef _WIN32
-  if (!gladLoadGL(glfwGetProcAddress)) {
+
+  if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
       printf("Failed to initialize GLAD OpenGL context\n");
       exit(1);
   }
-#endif
+
   printf("OpenGL version: %s\n", glGetString(GL_VERSION));
 
   initialize();

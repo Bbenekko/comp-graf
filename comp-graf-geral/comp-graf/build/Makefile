@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neco/Documents/comp-graf-geral/comp-graf
+CMAKE_SOURCE_DIR = /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neco/Documents/comp-graf-geral/comp-graf/build
+CMAKE_BINARY_DIR = /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles /home/neco/Documents/comp-graf-geral/comp-graf/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf-geral/comp-graf/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,48 +117,89 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named comp_graf_project
+# Target rules for targets named glad
 
 # Build rule for target.
-comp_graf_project: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 comp_graf_project
-.PHONY : comp_graf_project
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
 
 # fast build rule for target.
-comp_graf_project/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/build
-.PHONY : comp_graf_project/fast
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/build
+.PHONY : glad/fast
 
-external/glad/src/glad.o: external/glad/src/glad.c.o
-.PHONY : external/glad/src/glad.o
+#=============================================================================
+# Target rules for targets named main_2d
+
+# Build rule for target.
+main_2d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_2d
+.PHONY : main_2d
+
+# fast build rule for target.
+main_2d/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/build
+.PHONY : main_2d/fast
+
+#=============================================================================
+# Target rules for targets named main_3d
+
+# Build rule for target.
+main_3d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_3d
+.PHONY : main_3d
+
+# fast build rule for target.
+main_3d/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/build
+.PHONY : main_3d/fast
+
+#=============================================================================
+# Target rules for targets named main_gpgpu
+
+# Build rule for target.
+main_gpgpu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_gpgpu
+.PHONY : main_gpgpu
+
+# fast build rule for target.
+main_gpgpu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/build
+.PHONY : main_gpgpu/fast
+
+include/glad/src/glad.o: include/glad/src/glad.c.o
+.PHONY : include/glad/src/glad.o
 
 # target to build an object file
-external/glad/src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o
-.PHONY : external/glad/src/glad.c.o
+include/glad/src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/include/glad/src/glad.c.o
+.PHONY : include/glad/src/glad.c.o
 
-external/glad/src/glad.i: external/glad/src/glad.c.i
-.PHONY : external/glad/src/glad.i
+include/glad/src/glad.i: include/glad/src/glad.c.i
+.PHONY : include/glad/src/glad.i
 
 # target to preprocess a source file
-external/glad/src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.i
-.PHONY : external/glad/src/glad.c.i
+include/glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/include/glad/src/glad.c.i
+.PHONY : include/glad/src/glad.c.i
 
-external/glad/src/glad.s: external/glad/src/glad.c.s
-.PHONY : external/glad/src/glad.s
+include/glad/src/glad.s: include/glad/src/glad.c.s
+.PHONY : include/glad/src/glad.s
 
 # target to generate assembly for a file
-external/glad/src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.s
-.PHONY : external/glad/src/glad.c.s
+include/glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/include/glad/src/glad.c.s
+.PHONY : include/glad/src/glad.c.s
 
 src/arcball.o: src/arcball.cpp.o
 .PHONY : src/arcball.o
 
 # target to build an object file
 src/arcball.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/arcball.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/arcball.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/arcball.cpp.o
 .PHONY : src/arcball.cpp.o
 
 src/arcball.i: src/arcball.cpp.i
@@ -166,7 +207,9 @@ src/arcball.i: src/arcball.cpp.i
 
 # target to preprocess a source file
 src/arcball.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/arcball.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/arcball.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/arcball.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/arcball.cpp.i
 .PHONY : src/arcball.cpp.i
 
 src/arcball.s: src/arcball.cpp.s
@@ -174,7 +217,9 @@ src/arcball.s: src/arcball.cpp.s
 
 # target to generate assembly for a file
 src/arcball.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/arcball.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/arcball.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/arcball.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/arcball.cpp.s
 .PHONY : src/arcball.cpp.s
 
 src/camera2d.o: src/camera2d.cpp.o
@@ -182,7 +227,9 @@ src/camera2d.o: src/camera2d.cpp.o
 
 # target to build an object file
 src/camera2d.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/camera2d.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/camera2d.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/camera2d.cpp.o
 .PHONY : src/camera2d.cpp.o
 
 src/camera2d.i: src/camera2d.cpp.i
@@ -190,7 +237,9 @@ src/camera2d.i: src/camera2d.cpp.i
 
 # target to preprocess a source file
 src/camera2d.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/camera2d.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/camera2d.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/camera2d.cpp.i
 .PHONY : src/camera2d.cpp.i
 
 src/camera2d.s: src/camera2d.cpp.s
@@ -198,15 +247,49 @@ src/camera2d.s: src/camera2d.cpp.s
 
 # target to generate assembly for a file
 src/camera2d.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/camera2d.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/camera2d.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/camera2d.cpp.s
 .PHONY : src/camera2d.cpp.s
+
+src/camera3d.o: src/camera3d.cpp.o
+.PHONY : src/camera3d.o
+
+# target to build an object file
+src/camera3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/camera3d.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/camera3d.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/camera3d.cpp.o
+.PHONY : src/camera3d.cpp.o
+
+src/camera3d.i: src/camera3d.cpp.i
+.PHONY : src/camera3d.i
+
+# target to preprocess a source file
+src/camera3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/camera3d.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/camera3d.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/camera3d.cpp.i
+.PHONY : src/camera3d.cpp.i
+
+src/camera3d.s: src/camera3d.cpp.s
+.PHONY : src/camera3d.s
+
+# target to generate assembly for a file
+src/camera3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/camera3d.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/camera3d.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/camera3d.cpp.s
+.PHONY : src/camera3d.cpp.s
 
 src/circle.o: src/circle.cpp.o
 .PHONY : src/circle.o
 
 # target to build an object file
 src/circle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/circle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/circle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/circle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/circle.cpp.o
 .PHONY : src/circle.cpp.o
 
 src/circle.i: src/circle.cpp.i
@@ -214,7 +297,9 @@ src/circle.i: src/circle.cpp.i
 
 # target to preprocess a source file
 src/circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/circle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/circle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/circle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/circle.cpp.i
 .PHONY : src/circle.cpp.i
 
 src/circle.s: src/circle.cpp.s
@@ -222,7 +307,9 @@ src/circle.s: src/circle.cpp.s
 
 # target to generate assembly for a file
 src/circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/circle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/circle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/circle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/circle.cpp.s
 .PHONY : src/circle.cpp.s
 
 src/color.o: src/color.cpp.o
@@ -230,7 +317,9 @@ src/color.o: src/color.cpp.o
 
 # target to build an object file
 src/color.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/color.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/color.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/color.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/color.cpp.o
 .PHONY : src/color.cpp.o
 
 src/color.i: src/color.cpp.i
@@ -238,7 +327,9 @@ src/color.i: src/color.cpp.i
 
 # target to preprocess a source file
 src/color.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/color.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/color.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/color.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/color.cpp.i
 .PHONY : src/color.cpp.i
 
 src/color.s: src/color.cpp.s
@@ -246,7 +337,9 @@ src/color.s: src/color.cpp.s
 
 # target to generate assembly for a file
 src/color.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/color.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/color.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/color.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/color.cpp.s
 .PHONY : src/color.cpp.s
 
 src/computeshader.o: src/computeshader.cpp.o
@@ -254,7 +347,9 @@ src/computeshader.o: src/computeshader.cpp.o
 
 # target to build an object file
 src/computeshader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/computeshader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/computeshader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/computeshader.cpp.o
 .PHONY : src/computeshader.cpp.o
 
 src/computeshader.i: src/computeshader.cpp.i
@@ -262,7 +357,9 @@ src/computeshader.i: src/computeshader.cpp.i
 
 # target to preprocess a source file
 src/computeshader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/computeshader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/computeshader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/computeshader.cpp.i
 .PHONY : src/computeshader.cpp.i
 
 src/computeshader.s: src/computeshader.cpp.s
@@ -270,7 +367,9 @@ src/computeshader.s: src/computeshader.cpp.s
 
 # target to generate assembly for a file
 src/computeshader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/computeshader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/computeshader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/computeshader.cpp.s
 .PHONY : src/computeshader.cpp.s
 
 src/cube.o: src/cube.cpp.o
@@ -278,7 +377,9 @@ src/cube.o: src/cube.cpp.o
 
 # target to build an object file
 src/cube.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/cube.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/cube.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/cube.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/cube.cpp.o
 .PHONY : src/cube.cpp.o
 
 src/cube.i: src/cube.cpp.i
@@ -286,7 +387,9 @@ src/cube.i: src/cube.cpp.i
 
 # target to preprocess a source file
 src/cube.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/cube.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/cube.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/cube.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/cube.cpp.i
 .PHONY : src/cube.cpp.i
 
 src/cube.s: src/cube.cpp.s
@@ -294,7 +397,9 @@ src/cube.s: src/cube.cpp.s
 
 # target to generate assembly for a file
 src/cube.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/cube.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/cube.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/cube.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/cube.cpp.s
 .PHONY : src/cube.cpp.s
 
 src/disk.o: src/disk.cpp.o
@@ -302,7 +407,9 @@ src/disk.o: src/disk.cpp.o
 
 # target to build an object file
 src/disk.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/disk.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/disk.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/disk.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/disk.cpp.o
 .PHONY : src/disk.cpp.o
 
 src/disk.i: src/disk.cpp.i
@@ -310,7 +417,9 @@ src/disk.i: src/disk.cpp.i
 
 # target to preprocess a source file
 src/disk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/disk.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/disk.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/disk.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/disk.cpp.i
 .PHONY : src/disk.cpp.i
 
 src/disk.s: src/disk.cpp.s
@@ -318,7 +427,9 @@ src/disk.s: src/disk.cpp.s
 
 # target to generate assembly for a file
 src/disk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/disk.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/disk.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/disk.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/disk.cpp.s
 .PHONY : src/disk.cpp.s
 
 src/error.o: src/error.cpp.o
@@ -326,7 +437,9 @@ src/error.o: src/error.cpp.o
 
 # target to build an object file
 src/error.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/error.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/error.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/error.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/error.cpp.o
 .PHONY : src/error.cpp.o
 
 src/error.i: src/error.cpp.i
@@ -334,7 +447,9 @@ src/error.i: src/error.cpp.i
 
 # target to preprocess a source file
 src/error.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/error.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/error.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/error.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/error.cpp.i
 .PHONY : src/error.cpp.i
 
 src/error.s: src/error.cpp.s
@@ -342,7 +457,9 @@ src/error.s: src/error.cpp.s
 
 # target to generate assembly for a file
 src/error.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/error.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/error.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/error.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/error.cpp.s
 .PHONY : src/error.cpp.s
 
 src/framebuffer.o: src/framebuffer.cpp.o
@@ -350,7 +467,9 @@ src/framebuffer.o: src/framebuffer.cpp.o
 
 # target to build an object file
 src/framebuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/framebuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/framebuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/framebuffer.cpp.o
 .PHONY : src/framebuffer.cpp.o
 
 src/framebuffer.i: src/framebuffer.cpp.i
@@ -358,7 +477,9 @@ src/framebuffer.i: src/framebuffer.cpp.i
 
 # target to preprocess a source file
 src/framebuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/framebuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/framebuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/framebuffer.cpp.i
 .PHONY : src/framebuffer.cpp.i
 
 src/framebuffer.s: src/framebuffer.cpp.s
@@ -366,7 +487,9 @@ src/framebuffer.s: src/framebuffer.cpp.s
 
 # target to generate assembly for a file
 src/framebuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/framebuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/framebuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/framebuffer.cpp.s
 .PHONY : src/framebuffer.cpp.s
 
 src/grid.o: src/grid.cpp.o
@@ -374,7 +497,9 @@ src/grid.o: src/grid.cpp.o
 
 # target to build an object file
 src/grid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/grid.cpp.o
 .PHONY : src/grid.cpp.o
 
 src/grid.i: src/grid.cpp.i
@@ -382,7 +507,9 @@ src/grid.i: src/grid.cpp.i
 
 # target to preprocess a source file
 src/grid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/grid.cpp.i
 .PHONY : src/grid.cpp.i
 
 src/grid.s: src/grid.cpp.s
@@ -390,7 +517,9 @@ src/grid.s: src/grid.cpp.s
 
 # target to generate assembly for a file
 src/grid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/grid.cpp.s
 .PHONY : src/grid.cpp.s
 
 src/image.o: src/image.cpp.o
@@ -398,7 +527,9 @@ src/image.o: src/image.cpp.o
 
 # target to build an object file
 src/image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/image.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/image.cpp.o
 .PHONY : src/image.cpp.o
 
 src/image.i: src/image.cpp.i
@@ -406,7 +537,9 @@ src/image.i: src/image.cpp.i
 
 # target to preprocess a source file
 src/image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/image.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/image.cpp.i
 .PHONY : src/image.cpp.i
 
 src/image.s: src/image.cpp.s
@@ -414,7 +547,9 @@ src/image.s: src/image.cpp.s
 
 # target to generate assembly for a file
 src/image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/image.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/image.cpp.s
 .PHONY : src/image.cpp.s
 
 src/light.o: src/light.cpp.o
@@ -422,7 +557,9 @@ src/light.o: src/light.cpp.o
 
 # target to build an object file
 src/light.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/light.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/light.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/light.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/light.cpp.o
 .PHONY : src/light.cpp.o
 
 src/light.i: src/light.cpp.i
@@ -430,7 +567,9 @@ src/light.i: src/light.cpp.i
 
 # target to preprocess a source file
 src/light.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/light.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/light.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/light.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/light.cpp.i
 .PHONY : src/light.cpp.i
 
 src/light.s: src/light.cpp.s
@@ -438,7 +577,9 @@ src/light.s: src/light.cpp.s
 
 # target to generate assembly for a file
 src/light.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/light.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/light.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/light.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/light.cpp.s
 .PHONY : src/light.cpp.s
 
 src/line.o: src/line.cpp.o
@@ -446,7 +587,9 @@ src/line.o: src/line.cpp.o
 
 # target to build an object file
 src/line.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/line.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/line.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/line.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/line.cpp.o
 .PHONY : src/line.cpp.o
 
 src/line.i: src/line.cpp.i
@@ -454,7 +597,9 @@ src/line.i: src/line.cpp.i
 
 # target to preprocess a source file
 src/line.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/line.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/line.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/line.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/line.cpp.i
 .PHONY : src/line.cpp.i
 
 src/line.s: src/line.cpp.s
@@ -462,7 +607,9 @@ src/line.s: src/line.cpp.s
 
 # target to generate assembly for a file
 src/line.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/line.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/line.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/line.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/line.cpp.s
 .PHONY : src/line.cpp.s
 
 src/main_2d.o: src/main_2d.cpp.o
@@ -470,7 +617,7 @@ src/main_2d.o: src/main_2d.cpp.o
 
 # target to build an object file
 src/main_2d.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/main_2d.cpp.o
 .PHONY : src/main_2d.cpp.o
 
 src/main_2d.i: src/main_2d.cpp.i
@@ -478,7 +625,7 @@ src/main_2d.i: src/main_2d.cpp.i
 
 # target to preprocess a source file
 src/main_2d.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/main_2d.cpp.i
 .PHONY : src/main_2d.cpp.i
 
 src/main_2d.s: src/main_2d.cpp.s
@@ -486,15 +633,65 @@ src/main_2d.s: src/main_2d.cpp.s
 
 # target to generate assembly for a file
 src/main_2d.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/main_2d.cpp.s
 .PHONY : src/main_2d.cpp.s
+
+src/main_3d.o: src/main_3d.cpp.o
+.PHONY : src/main_3d.o
+
+# target to build an object file
+src/main_3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/main_3d.cpp.o
+.PHONY : src/main_3d.cpp.o
+
+src/main_3d.i: src/main_3d.cpp.i
+.PHONY : src/main_3d.i
+
+# target to preprocess a source file
+src/main_3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/main_3d.cpp.i
+.PHONY : src/main_3d.cpp.i
+
+src/main_3d.s: src/main_3d.cpp.s
+.PHONY : src/main_3d.s
+
+# target to generate assembly for a file
+src/main_3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/main_3d.cpp.s
+.PHONY : src/main_3d.cpp.s
+
+src/main_gpgpu.o: src/main_gpgpu.cpp.o
+.PHONY : src/main_gpgpu.o
+
+# target to build an object file
+src/main_gpgpu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/main_gpgpu.cpp.o
+.PHONY : src/main_gpgpu.cpp.o
+
+src/main_gpgpu.i: src/main_gpgpu.cpp.i
+.PHONY : src/main_gpgpu.i
+
+# target to preprocess a source file
+src/main_gpgpu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/main_gpgpu.cpp.i
+.PHONY : src/main_gpgpu.cpp.i
+
+src/main_gpgpu.s: src/main_gpgpu.cpp.s
+.PHONY : src/main_gpgpu.s
+
+# target to generate assembly for a file
+src/main_gpgpu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/main_gpgpu.cpp.s
+.PHONY : src/main_gpgpu.cpp.s
 
 src/material.o: src/material.cpp.o
 .PHONY : src/material.o
 
 # target to build an object file
 src/material.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/material.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/material.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/material.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/material.cpp.o
 .PHONY : src/material.cpp.o
 
 src/material.i: src/material.cpp.i
@@ -502,7 +699,9 @@ src/material.i: src/material.cpp.i
 
 # target to preprocess a source file
 src/material.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/material.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/material.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/material.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/material.cpp.i
 .PHONY : src/material.cpp.i
 
 src/material.s: src/material.cpp.s
@@ -510,7 +709,9 @@ src/material.s: src/material.cpp.s
 
 # target to generate assembly for a file
 src/material.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/material.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/material.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/material.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/material.cpp.s
 .PHONY : src/material.cpp.s
 
 src/mesh.o: src/mesh.cpp.o
@@ -518,7 +719,9 @@ src/mesh.o: src/mesh.cpp.o
 
 # target to build an object file
 src/mesh.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/mesh.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/mesh.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/mesh.cpp.o
 .PHONY : src/mesh.cpp.o
 
 src/mesh.i: src/mesh.cpp.i
@@ -526,7 +729,9 @@ src/mesh.i: src/mesh.cpp.i
 
 # target to preprocess a source file
 src/mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/mesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/mesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/mesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/mesh.cpp.i
 .PHONY : src/mesh.cpp.i
 
 src/mesh.s: src/mesh.cpp.s
@@ -534,7 +739,9 @@ src/mesh.s: src/mesh.cpp.s
 
 # target to generate assembly for a file
 src/mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/mesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/mesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/mesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/mesh.cpp.s
 .PHONY : src/mesh.cpp.s
 
 src/node.o: src/node.cpp.o
@@ -542,7 +749,9 @@ src/node.o: src/node.cpp.o
 
 # target to build an object file
 src/node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/node.cpp.o
 .PHONY : src/node.cpp.o
 
 src/node.i: src/node.cpp.i
@@ -550,7 +759,9 @@ src/node.i: src/node.cpp.i
 
 # target to preprocess a source file
 src/node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/node.cpp.i
 .PHONY : src/node.cpp.i
 
 src/node.s: src/node.cpp.s
@@ -558,7 +769,9 @@ src/node.s: src/node.cpp.s
 
 # target to generate assembly for a file
 src/node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/node.cpp.s
 .PHONY : src/node.cpp.s
 
 src/polygon.o: src/polygon.cpp.o
@@ -566,7 +779,9 @@ src/polygon.o: src/polygon.cpp.o
 
 # target to build an object file
 src/polygon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/polygon.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/polygon.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/polygon.cpp.o
 .PHONY : src/polygon.cpp.o
 
 src/polygon.i: src/polygon.cpp.i
@@ -574,7 +789,9 @@ src/polygon.i: src/polygon.cpp.i
 
 # target to preprocess a source file
 src/polygon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polygon.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/polygon.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/polygon.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/polygon.cpp.i
 .PHONY : src/polygon.cpp.i
 
 src/polygon.s: src/polygon.cpp.s
@@ -582,7 +799,9 @@ src/polygon.s: src/polygon.cpp.s
 
 # target to generate assembly for a file
 src/polygon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polygon.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/polygon.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/polygon.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/polygon.cpp.s
 .PHONY : src/polygon.cpp.s
 
 src/polyoffset.o: src/polyoffset.cpp.o
@@ -590,7 +809,9 @@ src/polyoffset.o: src/polyoffset.cpp.o
 
 # target to build an object file
 src/polyoffset.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/polyoffset.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/polyoffset.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/polyoffset.cpp.o
 .PHONY : src/polyoffset.cpp.o
 
 src/polyoffset.i: src/polyoffset.cpp.i
@@ -598,7 +819,9 @@ src/polyoffset.i: src/polyoffset.cpp.i
 
 # target to preprocess a source file
 src/polyoffset.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/polyoffset.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/polyoffset.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/polyoffset.cpp.i
 .PHONY : src/polyoffset.cpp.i
 
 src/polyoffset.s: src/polyoffset.cpp.s
@@ -606,7 +829,9 @@ src/polyoffset.s: src/polyoffset.cpp.s
 
 # target to generate assembly for a file
 src/polyoffset.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/polyoffset.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/polyoffset.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/polyoffset.cpp.s
 .PHONY : src/polyoffset.cpp.s
 
 src/quad.o: src/quad.cpp.o
@@ -614,7 +839,9 @@ src/quad.o: src/quad.cpp.o
 
 # target to build an object file
 src/quad.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/quad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/quad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/quad.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/quad.cpp.o
 .PHONY : src/quad.cpp.o
 
 src/quad.i: src/quad.cpp.i
@@ -622,7 +849,9 @@ src/quad.i: src/quad.cpp.i
 
 # target to preprocess a source file
 src/quad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/quad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/quad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/quad.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/quad.cpp.i
 .PHONY : src/quad.cpp.i
 
 src/quad.s: src/quad.cpp.s
@@ -630,7 +859,9 @@ src/quad.s: src/quad.cpp.s
 
 # target to generate assembly for a file
 src/quad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/quad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/quad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/quad.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/quad.cpp.s
 .PHONY : src/quad.cpp.s
 
 src/scene.o: src/scene.cpp.o
@@ -638,7 +869,9 @@ src/scene.o: src/scene.cpp.o
 
 # target to build an object file
 src/scene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/scene.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/scene.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/scene.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/scene.cpp.o
 .PHONY : src/scene.cpp.o
 
 src/scene.i: src/scene.cpp.i
@@ -646,7 +879,9 @@ src/scene.i: src/scene.cpp.i
 
 # target to preprocess a source file
 src/scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/scene.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/scene.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/scene.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/scene.cpp.i
 .PHONY : src/scene.cpp.i
 
 src/scene.s: src/scene.cpp.s
@@ -654,7 +889,9 @@ src/scene.s: src/scene.cpp.s
 
 # target to generate assembly for a file
 src/scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/scene.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/scene.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/scene.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/scene.cpp.s
 .PHONY : src/scene.cpp.s
 
 src/shader.o: src/shader.cpp.o
@@ -662,7 +899,9 @@ src/shader.o: src/shader.cpp.o
 
 # target to build an object file
 src/shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/shader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/shader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/shader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/shader.cpp.o
 .PHONY : src/shader.cpp.o
 
 src/shader.i: src/shader.cpp.i
@@ -670,7 +909,9 @@ src/shader.i: src/shader.cpp.i
 
 # target to preprocess a source file
 src/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/shader.cpp.i
 .PHONY : src/shader.cpp.i
 
 src/shader.s: src/shader.cpp.s
@@ -678,7 +919,9 @@ src/shader.s: src/shader.cpp.s
 
 # target to generate assembly for a file
 src/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/shader.cpp.s
 .PHONY : src/shader.cpp.s
 
 src/sphere.o: src/sphere.cpp.o
@@ -686,7 +929,9 @@ src/sphere.o: src/sphere.cpp.o
 
 # target to build an object file
 src/sphere.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/sphere.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/sphere.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/sphere.cpp.o
 .PHONY : src/sphere.cpp.o
 
 src/sphere.i: src/sphere.cpp.i
@@ -694,7 +939,9 @@ src/sphere.i: src/sphere.cpp.i
 
 # target to preprocess a source file
 src/sphere.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/sphere.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/sphere.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/sphere.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/sphere.cpp.i
 .PHONY : src/sphere.cpp.i
 
 src/sphere.s: src/sphere.cpp.s
@@ -702,7 +949,9 @@ src/sphere.s: src/sphere.cpp.s
 
 # target to generate assembly for a file
 src/sphere.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/sphere.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/sphere.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/sphere.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/sphere.cpp.s
 .PHONY : src/sphere.cpp.s
 
 src/state.o: src/state.cpp.o
@@ -710,7 +959,9 @@ src/state.o: src/state.cpp.o
 
 # target to build an object file
 src/state.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/state.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/state.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/state.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/state.cpp.o
 .PHONY : src/state.cpp.o
 
 src/state.i: src/state.cpp.i
@@ -718,7 +969,9 @@ src/state.i: src/state.cpp.i
 
 # target to preprocess a source file
 src/state.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/state.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/state.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/state.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/state.cpp.i
 .PHONY : src/state.cpp.i
 
 src/state.s: src/state.cpp.s
@@ -726,7 +979,9 @@ src/state.s: src/state.cpp.s
 
 # target to generate assembly for a file
 src/state.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/state.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/state.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/state.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/state.cpp.s
 .PHONY : src/state.cpp.s
 
 src/texbuffer.o: src/texbuffer.cpp.o
@@ -734,7 +989,9 @@ src/texbuffer.o: src/texbuffer.cpp.o
 
 # target to build an object file
 src/texbuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texbuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texbuffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texbuffer.cpp.o
 .PHONY : src/texbuffer.cpp.o
 
 src/texbuffer.i: src/texbuffer.cpp.i
@@ -742,7 +999,9 @@ src/texbuffer.i: src/texbuffer.cpp.i
 
 # target to preprocess a source file
 src/texbuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texbuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texbuffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texbuffer.cpp.i
 .PHONY : src/texbuffer.cpp.i
 
 src/texbuffer.s: src/texbuffer.cpp.s
@@ -750,7 +1009,9 @@ src/texbuffer.s: src/texbuffer.cpp.s
 
 # target to generate assembly for a file
 src/texbuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texbuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texbuffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texbuffer.cpp.s
 .PHONY : src/texbuffer.cpp.s
 
 src/texcube.o: src/texcube.cpp.o
@@ -758,7 +1019,9 @@ src/texcube.o: src/texcube.cpp.o
 
 # target to build an object file
 src/texcube.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texcube.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texcube.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texcube.cpp.o
 .PHONY : src/texcube.cpp.o
 
 src/texcube.i: src/texcube.cpp.i
@@ -766,7 +1029,9 @@ src/texcube.i: src/texcube.cpp.i
 
 # target to preprocess a source file
 src/texcube.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texcube.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texcube.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texcube.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texcube.cpp.i
 .PHONY : src/texcube.cpp.i
 
 src/texcube.s: src/texcube.cpp.s
@@ -774,7 +1039,9 @@ src/texcube.s: src/texcube.cpp.s
 
 # target to generate assembly for a file
 src/texcube.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texcube.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texcube.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texcube.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texcube.cpp.s
 .PHONY : src/texcube.cpp.s
 
 src/texdepth.o: src/texdepth.cpp.o
@@ -782,7 +1049,9 @@ src/texdepth.o: src/texdepth.cpp.o
 
 # target to build an object file
 src/texdepth.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texdepth.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texdepth.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texdepth.cpp.o
 .PHONY : src/texdepth.cpp.o
 
 src/texdepth.i: src/texdepth.cpp.i
@@ -790,7 +1059,9 @@ src/texdepth.i: src/texdepth.cpp.i
 
 # target to preprocess a source file
 src/texdepth.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texdepth.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texdepth.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texdepth.cpp.i
 .PHONY : src/texdepth.cpp.i
 
 src/texdepth.s: src/texdepth.cpp.s
@@ -798,7 +1069,9 @@ src/texdepth.s: src/texdepth.cpp.s
 
 # target to generate assembly for a file
 src/texdepth.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texdepth.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texdepth.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texdepth.cpp.s
 .PHONY : src/texdepth.cpp.s
 
 src/texture.o: src/texture.cpp.o
@@ -806,7 +1079,9 @@ src/texture.o: src/texture.cpp.o
 
 # target to build an object file
 src/texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texture.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texture.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texture.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texture.cpp.o
 .PHONY : src/texture.cpp.o
 
 src/texture.i: src/texture.cpp.i
@@ -814,7 +1089,9 @@ src/texture.i: src/texture.cpp.i
 
 # target to preprocess a source file
 src/texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texture.cpp.i
 .PHONY : src/texture.cpp.i
 
 src/texture.s: src/texture.cpp.s
@@ -822,7 +1099,9 @@ src/texture.s: src/texture.cpp.s
 
 # target to generate assembly for a file
 src/texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/texture.cpp.s
 .PHONY : src/texture.cpp.s
 
 src/transform.o: src/transform.cpp.o
@@ -830,7 +1109,9 @@ src/transform.o: src/transform.cpp.o
 
 # target to build an object file
 src/transform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/transform.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/transform.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/transform.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/transform.cpp.o
 .PHONY : src/transform.cpp.o
 
 src/transform.i: src/transform.cpp.i
@@ -838,7 +1119,9 @@ src/transform.i: src/transform.cpp.i
 
 # target to preprocess a source file
 src/transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/transform.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/transform.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/transform.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/transform.cpp.i
 .PHONY : src/transform.cpp.i
 
 src/transform.s: src/transform.cpp.s
@@ -846,7 +1129,9 @@ src/transform.s: src/transform.cpp.s
 
 # target to generate assembly for a file
 src/transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/transform.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/transform.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/transform.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/transform.cpp.s
 .PHONY : src/transform.cpp.s
 
 src/triangle.o: src/triangle.cpp.o
@@ -854,7 +1139,9 @@ src/triangle.o: src/triangle.cpp.o
 
 # target to build an object file
 src/triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/triangle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/triangle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/triangle.cpp.o
 .PHONY : src/triangle.cpp.o
 
 src/triangle.i: src/triangle.cpp.i
@@ -862,7 +1149,9 @@ src/triangle.i: src/triangle.cpp.i
 
 # target to preprocess a source file
 src/triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/triangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/triangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/triangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/triangle.cpp.i
 .PHONY : src/triangle.cpp.i
 
 src/triangle.s: src/triangle.cpp.s
@@ -870,7 +1159,9 @@ src/triangle.s: src/triangle.cpp.s
 
 # target to generate assembly for a file
 src/triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/comp_graf_project.dir/build.make CMakeFiles/comp_graf_project.dir/src/triangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_2d.dir/build.make CMakeFiles/main_2d.dir/src/triangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_3d.dir/build.make CMakeFiles/main_3d.dir/src/triangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_gpgpu.dir/build.make CMakeFiles/main_gpgpu.dir/src/triangle.cpp.s
 .PHONY : src/triangle.cpp.s
 
 # Help Target
@@ -881,16 +1172,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... comp_graf_project"
-	@echo "... external/glad/src/glad.o"
-	@echo "... external/glad/src/glad.i"
-	@echo "... external/glad/src/glad.s"
+	@echo "... glad"
+	@echo "... main_2d"
+	@echo "... main_3d"
+	@echo "... main_gpgpu"
+	@echo "... include/glad/src/glad.o"
+	@echo "... include/glad/src/glad.i"
+	@echo "... include/glad/src/glad.s"
 	@echo "... src/arcball.o"
 	@echo "... src/arcball.i"
 	@echo "... src/arcball.s"
 	@echo "... src/camera2d.o"
 	@echo "... src/camera2d.i"
 	@echo "... src/camera2d.s"
+	@echo "... src/camera3d.o"
+	@echo "... src/camera3d.i"
+	@echo "... src/camera3d.s"
 	@echo "... src/circle.o"
 	@echo "... src/circle.i"
 	@echo "... src/circle.s"
@@ -927,6 +1224,12 @@ help:
 	@echo "... src/main_2d.o"
 	@echo "... src/main_2d.i"
 	@echo "... src/main_2d.s"
+	@echo "... src/main_3d.o"
+	@echo "... src/main_3d.i"
+	@echo "... src/main_3d.s"
+	@echo "... src/main_gpgpu.o"
+	@echo "... src/main_gpgpu.i"
+	@echo "... src/main_gpgpu.s"
 	@echo "... src/material.o"
 	@echo "... src/material.i"
 	@echo "... src/material.s"

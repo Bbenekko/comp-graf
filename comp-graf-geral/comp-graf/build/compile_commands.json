@@ -1,188 +1,566 @@
 [
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/main_2d.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/main_2d.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/main_2d.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/cc  -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -o CMakeFiles/glad.dir/include/glad/src/glad.c.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/src/glad.c",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/src/glad.c",
+  "output": "CMakeFiles/glad.dir/include/glad/src/glad.c.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/shader.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/shader.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/shader.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/shader.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/arcball.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/arcball.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/arcball.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/arcball.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/triangle.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/triangle.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/camera2d.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera2d.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera2d.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/camera2d.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/polygon.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/polygon.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/camera3d.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera3d.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera3d.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/camera3d.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/circle.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/circle.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/circle.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/circle.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/circle.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/circle.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/circle.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/circle.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/line.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/line.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/line.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/line.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/color.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/color.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/color.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/color.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/error.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/error.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/computeshader.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/computeshader.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/computeshader.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/computeshader.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/camera2d.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/camera2d.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/camera2d.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/cube.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/cube.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/cube.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/cube.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/transform.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/transform.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/transform.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/transform.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/disk.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/disk.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/disk.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/disk.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/state.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/state.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/state.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/state.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/error.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/scene.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/scene.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/scene.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/scene.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/framebuffer.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/framebuffer.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/framebuffer.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/framebuffer.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/node.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/node.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/node.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/node.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/grid.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/grid.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/grid.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/grid.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/quad.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/quad.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/quad.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/quad.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/image.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/image.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/image.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/image.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/grid.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/grid.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/grid.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/grid.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/light.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/light.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/light.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/light.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/arcball.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/arcball.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/arcball.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/line.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/line.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/line.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/line.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/color.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/color.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/color.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/color.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/material.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/material.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/material.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/material.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/computeshader.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/computeshader.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/computeshader.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/mesh.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/mesh.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/mesh.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/mesh.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/cube.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/cube.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/cube.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/cube.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/node.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/node.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/node.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/node.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/framebuffer.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/framebuffer.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/framebuffer.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/polygon.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/polygon.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/image.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/image.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/image.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/image.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/polyoffset.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polyoffset.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polyoffset.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/polyoffset.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/light.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/light.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/light.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/light.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/quad.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/quad.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/quad.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/quad.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/material.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/material.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/material.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/material.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/scene.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/scene.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/scene.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/scene.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/mesh.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/mesh.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/mesh.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/shader.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/shader.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/shader.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/shader.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/polyoffset.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/polyoffset.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/polyoffset.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/sphere.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/sphere.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/sphere.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/sphere.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/sphere.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/sphere.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/sphere.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/state.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/state.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/state.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/state.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/texbuffer.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/texbuffer.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/texbuffer.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/texbuffer.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texbuffer.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texbuffer.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/texbuffer.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/texcube.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/texcube.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/texcube.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/texcube.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texcube.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texcube.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/texcube.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/texdepth.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/texdepth.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/texdepth.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/texdepth.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texdepth.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texdepth.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/texdepth.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/texture.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/texture.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/texture.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/texture.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/texture.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texture.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texture.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/texture.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/g++  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/src/disk.cpp.o -c /home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/src/disk.cpp",
-  "output": "CMakeFiles/comp_graf_project.dir/src/disk.cpp.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/transform.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/transform.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/transform.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/transform.cpp.o"
 },
 {
-  "directory": "/home/neco/Documents/comp-graf-geral/comp-graf/build",
-  "command": "/usr/lib64/ccache/gcc  -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/include -isystem /home/neco/Documents/comp-graf-geral/comp-graf/external/stb -g -o CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o -c /home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c",
-  "file": "/home/neco/Documents/comp-graf-geral/comp-graf/external/glad/src/glad.c",
-  "output": "CMakeFiles/comp_graf_project.dir/external/glad/src/glad.c.o"
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/triangle.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/triangle.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_2d.dir/src/main_2d.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/main_2d.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/main_2d.cpp",
+  "output": "CMakeFiles/main_2d.dir/src/main_2d.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/arcball.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/arcball.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/arcball.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/arcball.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/camera2d.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera2d.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera2d.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/camera2d.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/camera3d.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera3d.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera3d.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/camera3d.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/circle.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/circle.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/circle.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/circle.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/color.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/color.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/color.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/color.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/computeshader.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/computeshader.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/computeshader.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/computeshader.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/cube.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/cube.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/cube.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/cube.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/disk.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/disk.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/disk.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/disk.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/error.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/framebuffer.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/framebuffer.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/framebuffer.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/framebuffer.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/grid.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/grid.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/grid.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/grid.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/image.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/image.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/image.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/image.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/light.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/light.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/light.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/light.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/line.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/line.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/line.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/line.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/material.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/material.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/material.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/material.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/mesh.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/mesh.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/mesh.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/mesh.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/node.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/node.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/node.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/node.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/polygon.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/polygon.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/polyoffset.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polyoffset.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polyoffset.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/polyoffset.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/quad.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/quad.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/quad.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/quad.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/scene.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/scene.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/scene.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/scene.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/shader.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/shader.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/shader.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/sphere.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/sphere.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/sphere.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/sphere.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/state.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/state.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/state.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/state.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/texbuffer.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texbuffer.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texbuffer.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/texbuffer.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/texcube.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texcube.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texcube.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/texcube.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/texdepth.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texdepth.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texdepth.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/texdepth.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/texture.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texture.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texture.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/texture.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/transform.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/transform.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/transform.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/transform.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/triangle.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/triangle.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_3d.dir/src/main_3d.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/main_3d.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/main_3d.cpp",
+  "output": "CMakeFiles/main_3d.dir/src/main_3d.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/arcball.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/arcball.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/arcball.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/arcball.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/camera2d.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera2d.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera2d.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/camera2d.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/camera3d.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera3d.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/camera3d.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/camera3d.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/circle.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/circle.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/circle.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/circle.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/color.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/color.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/color.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/color.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/computeshader.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/computeshader.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/computeshader.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/computeshader.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/cube.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/cube.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/cube.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/cube.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/disk.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/disk.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/disk.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/disk.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/error.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/error.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/framebuffer.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/framebuffer.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/framebuffer.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/framebuffer.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/grid.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/grid.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/grid.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/grid.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/image.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/image.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/image.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/image.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/light.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/light.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/light.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/light.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/line.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/line.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/line.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/line.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/material.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/material.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/material.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/material.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/mesh.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/mesh.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/mesh.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/mesh.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/node.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/node.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/node.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/node.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/polygon.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polygon.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/polygon.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/polyoffset.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polyoffset.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/polyoffset.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/polyoffset.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/quad.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/quad.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/quad.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/quad.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/scene.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/scene.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/scene.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/scene.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/shader.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/shader.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/shader.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/sphere.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/sphere.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/sphere.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/sphere.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/state.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/state.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/state.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/state.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/texbuffer.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texbuffer.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texbuffer.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/texbuffer.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/texcube.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texcube.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texcube.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/texcube.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/texdepth.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texdepth.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texdepth.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/texdepth.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/texture.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texture.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/texture.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/texture.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/transform.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/transform.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/transform.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/transform.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/triangle.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/triangle.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/triangle.cpp.o"
+},
+{
+  "directory": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/build",
+  "command": "/usr/lib64/ccache/c++ -DSTB_IMAGE_IMPLEMENTATION -I/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include  -Wall -DGL_SILENCE_DEPRECATION  -std=gnu++17 -o CMakeFiles/main_gpgpu.dir/src/main_gpgpu.cpp.o -c /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/main_gpgpu.cpp",
+  "file": "/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/main_gpgpu.cpp",
+  "output": "CMakeFiles/main_gpgpu.dir/src/main_gpgpu.cpp.o"
 }
 ]

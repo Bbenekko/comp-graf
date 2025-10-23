@@ -1,14 +1,15 @@
 #include "image.h"
+#include <ostream>
 
-#define STB_IMAGE_IMPLEMENTATION
-#include <stb_image.h>
+// #define STB_IMAGE_IMPLEMENTATION
+#include "stb/stb_image.h"
 
 #include <iostream>
 #include <cstdlib>
 
 Image::Image (const std::string& filename)
 {
-  //stbi_set_flip_vertically_on_load(1);
+  stbi_set_flip_vertically_on_load(1);
   m_data = stbi_load(filename.c_str(),&m_width,&m_height,&m_nchannels,0); 
   if (!m_data) {
     std::cerr << "Could not load image: " << filename << std::endl;
