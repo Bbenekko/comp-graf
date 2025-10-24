@@ -19,8 +19,10 @@ uniform vec4 mspe;
 uniform float mshi;
 
 out data {
-  vec4 color;
-  vec2 texcoord;
+  vec3 n;   // normal no espaço de iluminação
+  vec3 l;   // vetor até a luz
+  vec3 v;   // vetor até o observador
+  vec2 tc;  // coordenadas de textura
 } v;
 
 void main (void) 
@@ -32,13 +34,19 @@ void main (void)
   else 
     light = normalize(vec3(lpos)-veye); 
   vec3 neye = normalize(vec3(Mn*vec4(normal,0.0f)));
-  float ndotl = dot(neye,light);
+
+  /* float ndotl = dot(neye,light);
   v.color = mamb*lamb + mdif * ldif * max(0,ndotl); 
   if (ndotl > 0) {
     vec3 refl = normalize(reflect(-light,neye));
     v.color += mspe * lspe * pow(max(0,dot(refl,normalize(-veye))),mshi); 
   }
-  v.texcoord = texcoord;
+ */
+ 
+  v.n = neye;
+  v.l = light;
+  v.v = normalize(-vec3(veye));
+  v.tc = texcoord;
+
   gl_Position = Mvp*coord; 
 }
-

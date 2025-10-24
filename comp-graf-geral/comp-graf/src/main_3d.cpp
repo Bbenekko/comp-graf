@@ -43,21 +43,32 @@ static void initialize (void)
   LightPtr light = Light::Make(0.0f,0.0f,0.0f,1.0f,"camera");
 
   AppearancePtr white = Material::Make(1.0f,1.0f,1.0f);
-  AppearancePtr red = Material::Make(1.0f,0.5f,0.5f);
+
+  MaterialPtr red = Material::Make(1.0f,0.5f,0.5f);
+  red->SetDiffuse(1.0f, 0.0f, 0.0f);
+  red->SetSpecular(1.0f, 1.0f, 1.0f);
+  red->SetShininess(128.0f);
+
+  AppearancePtr yellow = Material::Make(0.8f, 0.7f, 0);
+
+  MaterialPtr green = Material::Make(0.5f,1.0f,0.5f);
+  green->SetDiffuse(0.0f, 1.0f, 0.0f);
+  green->SetShininess(32.0f);
+
   AppearancePtr poff = PolygonOffset::Make(-10,-10);
-  AppearancePtr paper = Texture::Make("decal","../images/paper.jpg");
 
   TransformPtr trf1 = Transform::Make();
   trf1->Scale(3.0f,0.3f,3.0f);
   trf1->Translate(0.0f,-1.0f,0.0f);
   TransformPtr trf2 = Transform::Make();
   trf2->Scale(0.5f,0.5f,0.5f);
-  trf2->Translate(0.0f,1.0f,0.0f);
+  trf2->Translate(1.5f,1.0f,-1.5f);
   TransformPtr trf3 = Transform::Make();
-  trf3->Translate(0.8f,0.0f,0.8f);
-  trf3->Rotate(30.0f,0.0f,1.0f,0.0f);
-  trf3->Rotate(90.0f,-1.0f,0.0f,0.0f);
-  trf3->Scale(0.5f,0.7f,1.0f);
+  trf3->Scale(0.7f, 0.2f, 0.7f);
+  trf3->Translate(-0.2f, 0.0f, 0.2f);
+  TransformPtr trf4 = Transform::Make();
+  trf4->Scale(0.15f,0.15f,0.15f);
+  trf4->Translate(-0.7f,2.3f,0.7f);
 
   Error::Check("before shps");
   ShapePtr cube = Cube::Make();
@@ -69,22 +80,23 @@ static void initialize (void)
 
   // create shader
   ShaderPtr shader = Shader::Make(light,"world");
-  shader->AttachVertexShader("../shaders/ilum_vert/vertex.glsl");
-  shader->AttachFragmentShader("../shaders/ilum_vert/fragment.glsl");
+  shader->AttachVertexShader("shaders/ilum_vert/vertex.glsl");
+  shader->AttachFragmentShader("shaders/ilum_vert/fragment.glsl");
   shader->Link();
 
   // Define a different shader for texture mapping
   // An alternative would be to use only this shader with a "white" texture for untextured objects
   ShaderPtr shd_tex = Shader::Make(light,"world");
-  shd_tex->AttachVertexShader("../shaders/ilum_vert/vertex_texture.glsl");
-  shd_tex->AttachFragmentShader("../shaders/ilum_vert/fragment_texture.glsl");
+  shd_tex->AttachVertexShader("shaders/ilum_vert/vertex_texture.glsl");
+  shd_tex->AttachFragmentShader("shaders/ilum_vert/fragment_texture.glsl");
   shd_tex->Link();
 
   // build scene
   NodePtr root = Node::Make(shader,
-    {Node::Make(trf1,{red},{cube}),
-     Node::Make(shd_tex,trf3,{white,poff,paper},{quad}),
-     Node::Make(trf2,{white},{sphere})
+    {Node::Make(trf1,{white},{cube}),
+     Node::Make(trf2,{red},{sphere}),
+     Node::Make(trf3, {yellow}, {cube}),
+     Node::Make(trf4, {green}, {sphere})
     }
   );
   scene = Scene::Make(root);

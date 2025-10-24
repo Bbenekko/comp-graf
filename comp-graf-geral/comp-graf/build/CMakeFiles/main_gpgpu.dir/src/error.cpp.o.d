@@ -1,7 +1,7 @@
 CMakeFiles/main_gpgpu.dir/src/error.cpp.o: \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.cpp \
  /usr/include/stdc-predef.h \
- /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
+ /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
  /usr/include/c++/15/string /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

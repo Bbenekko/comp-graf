@@ -2,5 +2,6 @@
     "cmake.sourceDirectory": "/home/neco/Documents/comp-graf-geral/comp-graf",
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

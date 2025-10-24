@@ -2526,7 +2526,6 @@ CMakeFiles/main_gpgpu.dir/src/cube.cpp.o: /home/neco/Documents/comp-graf/comp-gr
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/appearance.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/camera.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/cube.h \
-  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/glad.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/light.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/node.h \
@@ -2534,6 +2533,7 @@ CMakeFiles/main_gpgpu.dir/src/cube.cpp.o: /home/neco/Documents/comp-graf/comp-gr
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/shape.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/state.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/transform.h \
+  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -3324,8 +3324,8 @@ CMakeFiles/main_gpgpu.dir/src/disk.cpp.o: /home/neco/Documents/comp-graf/comp-gr
 
 CMakeFiles/main_gpgpu.dir/src/error.cpp.o: /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.cpp \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/KHR/khrplatform.h \
-  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/glad.h \
+  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -6458,7 +6458,6 @@ CMakeFiles/main_gpgpu.dir/src/node.cpp.o: /home/neco/Documents/comp-graf/comp-gr
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/KHR/khrplatform.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/appearance.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/camera.h \
-  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/glad.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/light.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/node.h \
@@ -6466,6 +6465,7 @@ CMakeFiles/main_gpgpu.dir/src/node.cpp.o: /home/neco/Documents/comp-graf/comp-gr
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/shape.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/state.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/transform.h \
+  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -7682,7 +7682,6 @@ CMakeFiles/main_gpgpu.dir/src/quad.cpp.o: /home/neco/Documents/comp-graf/comp-gr
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/KHR/khrplatform.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/appearance.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/camera.h \
-  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/glad.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/grid.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/light.h \
@@ -7692,6 +7691,7 @@ CMakeFiles/main_gpgpu.dir/src/quad.cpp.o: /home/neco/Documents/comp-graf/comp-gr
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/shape.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/state.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/transform.h \
+  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -8953,7 +8953,6 @@ CMakeFiles/main_gpgpu.dir/src/sphere.cpp.o: /home/neco/Documents/comp-graf/comp-
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/KHR/khrplatform.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/appearance.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/camera.h \
-  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/glad.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/grid.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/light.h \
@@ -8963,6 +8962,7 @@ CMakeFiles/main_gpgpu.dir/src/sphere.cpp.o: /home/neco/Documents/comp-graf/comp-
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/sphere.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/state.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/transform.h \
+  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -10618,7 +10618,6 @@ CMakeFiles/main_gpgpu.dir/src/texdepth.cpp.o: /home/neco/Documents/comp-graf/com
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/KHR/khrplatform.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/appearance.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/camera.h \
-  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/glad.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/light.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/node.h \
@@ -10627,6 +10626,7 @@ CMakeFiles/main_gpgpu.dir/src/texdepth.cpp.o: /home/neco/Documents/comp-graf/com
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/state.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/texdepth.h \
   /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/transform.h \
+  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -12841,6 +12841,8 @@ CMakeFiles/main_gpgpu.dir/src/computeshader.cpp.o:
 
 /usr/include/c++/15/cassert:
 
+/usr/include/c++/15/bits/streambuf.tcc:
+
 /usr/include/c++/15/bits/basic_string.tcc:
 
 /usr/include/bits/timex.h:
@@ -13407,6 +13409,8 @@ CMakeFiles/main_gpgpu.dir/src/grid.cpp.o:
 
 /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/camera.h:
 
+/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h:
+
 /usr/include/glm/ext/vector_float4_precision.hpp:
 
 /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/camera2d.h:
@@ -13434,10 +13438,6 @@ CMakeFiles/main_gpgpu.dir/src/grid.cpp.o:
 /usr/include/glm/ext/matrix_double2x4.hpp:
 
 /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/cube.h:
-
-/usr/include/c++/15/bits/streambuf.tcc:
-
-/home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h:
 
 /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/disk.h:
 

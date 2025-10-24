@@ -300,7 +300,7 @@ CMakeFiles/main_3d.dir/src/main_3d.cpp.o: \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/cube.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/quad.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/sphere.h \
- /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
+ /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/shader.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/light.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/polyoffset.h \

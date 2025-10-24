@@ -291,7 +291,7 @@ CMakeFiles/main_2d.dir/src/node.cpp.o: \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/appearance.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/shape.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/state.h \
- /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
+ /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
  /usr/include/glm/gtc/matrix_transform.hpp \
  /usr/include/glm/ext/matrix_projection.hpp \
  /usr/include/glm/gtc/constants.hpp \

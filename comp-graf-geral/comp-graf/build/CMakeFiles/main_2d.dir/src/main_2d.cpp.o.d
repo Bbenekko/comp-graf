@@ -294,7 +294,7 @@ CMakeFiles/main_2d.dir/src/main_2d.cpp.o: \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/camera2d.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/color.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/transform.h \
- /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
+ /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/shader.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/quad.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/triangle.h \

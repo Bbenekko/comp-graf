@@ -287,6 +287,6 @@ CMakeFiles/main_gpgpu.dir/src/cube.cpp.o: \
  /usr/include/c++/15/bits/stl_bvector.h \
  /usr/include/c++/15/bits/vector.tcc \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/transform.h \
- /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/error.h \
+ /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/src/error.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/glad/glad.h \
  /home/neco/Documents/comp-graf/comp-graf-geral/comp-graf/include/KHR/khrplatform.h
