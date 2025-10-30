@@ -1,3 +1,4 @@
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -16,11 +17,13 @@
 #include "light.h"
 #include "light.h"
 #include "polyoffset.h"
+#include "orbit.h"
 
 #include <iostream>
 #include <cassert>
+#include <ostream>
 
-static float viewer_pos[3] = {2.0f, 3.5f, 4.0f};
+static float viewer_pos[3] = {2.0f, 3.5f, 8.0f};
 
 static ScenePtr scene;
 static Camera3DPtr camera;
@@ -42,38 +45,6 @@ static void initialize (void)
   //LightPtr light = ObjLight::Make(viewer_pos[0],viewer_pos[1],viewer_pos[2]);
   LightPtr light = Light::Make(0.0f,0.0f,0.0f,1.0f,"camera");
 
-  AppearancePtr white = Material::Make(1.0f,1.0f,1.0f);
-
-  MaterialPtr red = Material::Make(1.0f,0.5f,0.5f);
-  red->SetDiffuse(1.0f, 0.0f, 0.0f);
-  red->SetSpecular(1.0f, 1.0f, 1.0f);
-  red->SetShininess(128.0f);
-
-  AppearancePtr yellow = Material::Make(0.8f, 0.7f, 0);
-
-  MaterialPtr green = Material::Make(0.5f,1.0f,0.5f);
-  green->SetDiffuse(0.0f, 1.0f, 0.0f);
-  green->SetShininess(32.0f);
-
-  AppearancePtr poff = PolygonOffset::Make(-10,-10);
-
-  AppearancePtr earth = Texture::Make("earth","./images/earth.jpg");
-
-  AppearancePtr barrel = Texture::Make("barrel","./images/barrel.jpg");
-
-  TransformPtr trf_table = Transform::Make();
-  trf_table->Scale(3.0f,0.3f,3.0f);
-  trf_table->Translate(0.0f,-1.0f,0.0f);
-  TransformPtr trf_sphere = Transform::Make();
-  trf_sphere->Scale(0.5f,0.5f,0.5f);
-  trf_sphere->Translate(1.5f,1.0f,-1.5f);
-  TransformPtr trf_cube = Transform::Make();
-  trf_cube->Scale(0.7f, 0.2f, 0.7f);
-  trf_cube->Translate(-0.2f, 0.0f, 0.2f);
-  TransformPtr trfEarth = Transform::Make();
-  trfEarth->Scale(0.15f,0.15f,0.15f);
-  trfEarth->Translate(-0.7f,2.3f,0.7f);
-
   Error::Check("before shps");
   ShapePtr cube = Cube::Make();
   Error::Check("before quad");
@@ -81,6 +52,30 @@ static void initialize (void)
   Error::Check("before sphere");
   ShapePtr sphere = Sphere::Make();
   Error::Check("after shps");
+
+  AppearancePtr white = Material::Make(1.0f,1.0f,1.0f);
+  AppearancePtr sun_texture = Texture::Make("decal", "images/lebron.jpg");
+  AppearancePtr earth_texture = Texture::Make("decal", "images/earth.jpg");
+  AppearancePtr mercury_texture = Texture::Make("decal", "images/mercury.jpg");
+  AppearancePtr moon_texture = Texture::Make("decal", "images/moon.jpg");
+
+  TransformPtr sun_transform = Transform::Make();
+  sun_transform->Scale(0.5f, 0.5f, 0.5f);
+  TransformPtr mercury_orbit_disk_transform = Transform::Make();
+  mercury_orbit_disk_transform->Translate(0.0f, 0.0f, 0.0f);
+  TransformPtr mercury_transform = Transform::Make();
+  mercury_transform->Translate(1.0f, 0.0f, 0.0f);
+  mercury_transform->Scale(0.2f, 0.2f, 0.2f);
+  TransformPtr earth_orbit_disk_transform = Transform::Make();
+  earth_orbit_disk_transform->Translate(0.0f, 0.0f, 0.0f);
+  TransformPtr earth_transform = Transform::Make();
+  earth_transform->Translate(3.0f, 0.0f, 0.0f);
+  earth_transform->Scale(0.2f, 0.2f, 0.2f);
+  TransformPtr moon_orbit_disk_transform = Transform::Make();
+  moon_orbit_disk_transform->Translate(0.0f, 0.0f, 0.0f);
+  TransformPtr moon_transform = Transform::Make();
+  moon_transform->Translate(2.5f, 0.0f, 0.0f);
+  moon_transform->Scale(0.5f, 0.5f, 0.5f);
 
   // create shader
   ShaderPtr shader = Shader::Make(light,"world");
@@ -95,16 +90,33 @@ static void initialize (void)
   shd_tex->AttachFragmentShader("shaders/ilum_vert/fragment_texture.glsl");
   shd_tex->Link();
 
+  // make nodes
+  NodePtr sun = Node::Make(shd_tex, sun_transform, {white, sun_texture}, {sphere});
+  NodePtr mercury = Node::Make(shd_tex, mercury_transform, {white, mercury_texture}, {sphere}); 
+  NodePtr mercury_orbit_disk = Node::Make(mercury_orbit_disk_transform, {mercury});
+  NodePtr earth = Node::Make(shd_tex, earth_transform, {white, earth_texture}, {sphere}); 
+  NodePtr earth_orbit_disk = Node::Make(earth_orbit_disk_transform, {earth});
+  NodePtr moon = Node::Make(shd_tex, moon_transform, {white, moon_texture}, {sphere}); 
+  NodePtr moon_orbit_disk = Node::Make(moon_orbit_disk_transform, {moon});
+  earth->AddNode(moon_orbit_disk);
+
   // build scene
   NodePtr root = Node::Make(shader,
-    {Node::Make(trf_table,{white},{cube}),
-     Node::Make(trf_sphere,{red},{sphere}),
-     Node::Make(trf_cube, {yellow}, {cube}),
-     // Node::Make(shd_tex , {Node::Make(trfEarth, {earth}, {sphere})}),
-     Node::Make(shd_tex,trfEarth,{white,poff,earth},{sphere})
+    {
+                            sun,
+                            mercury_orbit_disk,
+                            earth_orbit_disk,
     }
   );
   scene = Scene::Make(root);
+  scene->AddEngine(Orbit::Make(earth_orbit_disk_transform, 2.5f));
+  scene->AddEngine(Orbit::Make(mercury_orbit_disk_transform, 4.5f));
+  scene->AddEngine(Orbit::Make(moon_orbit_disk_transform, 4.5f));
+}
+
+static void update(float dt)
+{
+  scene->Update(dt);
 }
 
 static void display (GLFWwindow* win)
@@ -185,15 +197,18 @@ int main ()
   glfwMakeContextCurrent(win);
 
   if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
-      printf("Failed to initialize GLAD OpenGL context\n");
-      exit(1);
+    std::cout << "Failed to initialize GLAD" << std::endl;
+    return -1;
   }
-
   printf("OpenGL version: %s\n", glGetString(GL_VERSION));
 
   initialize();
 
+  float t0 = float(glfwGetTime());
   while(!glfwWindowShouldClose(win)) {
+    float t = float(glfwGetTime());
+    update(t - t0);
+    t0 = t;
     display(win);
     glfwSwapBuffers(win);
     glfwPollEvents();
