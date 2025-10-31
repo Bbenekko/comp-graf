@@ -17,12 +17,6 @@ uniform vec4 mdif;
 uniform vec4 mspe;
 uniform float mshi;
 
-out data {
-  vec3 n;   // normal no espaço de iluminação
-  vec3 l;   // vetor até a luz
-  vec3 v;   // vetor até o observador
-} v;
-
 out vec4 color;
 
 void main (void) 
@@ -40,11 +34,5 @@ void main (void)
     vec3 refl = normalize(reflect(-light,neye));
     color += mspe * lspe * pow(max(0,dot(refl,normalize(-veye))),mshi); 
   }
-
-  v.n = neye;
-  v.l = light;
-  v.v = normalize(-vec3(veye));
-
   gl_Position = Mvp*coord; 
 }
-
